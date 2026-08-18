@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BUSK Peças — Central de Anúncios & Catálogo 109 SKUs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-main: #0B0E14;
+      --bg-card: #131924;
+      --bg-card-hover: #1A2232;
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(56, 189, 248, 0.4);
+      --text-main: #F1F5F9;
+      --text-muted: #94A3B8;
+      --accent-cyan: #38BDF8;
+      --accent-green: #10B981;
+      --accent-amber: #F59E0B;
+      --accent-purple: #A855F7;
+      --badge-bg: rgba(255, 255, 255, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding-bottom: 80px;
+    }
+
+    /* HEADER HUD */
+    header {
+      background: rgba(19, 25, 36, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 16px 32px;
+    }
+
+    .header-content {
+      max-width: 1440px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .brand-logo {
+      background: linear-gradient(135deg, #38BDF8 0%, #2563EB 100%);
+      color: #0B0E14;
+      font-weight: 900;
+      font-size: 20px;
+      padding: 6px 14px;
+      border-radius: 8px;
+      letter-spacing: -0.04em;
+    }
+
+    .brand-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .brand-subtitle {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* KPI METRICS */
+    .kpi-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .kpi-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      padding: 8px 16px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .kpi-label {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+
+    .kpi-val {
+      font-size: 16px;
+      font-weight: 800;
+      color: #fff;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .kpi-val.green { color: var(--accent-green); }
+    .kpi-val.cyan { color: var(--accent-cyan); }
+    .kpi-val.amber { color: var(--accent-amber); }
+
+    .btn-download-csv {
+      background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+      color: #fff;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 13px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .btn-download-csv:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 16px rgba(16, 185, 129, 0.35);
+    }
+
+    /* MAIN CONTAINER */
+    main {
+      max-width: 1440px;
+      margin: 28px auto;
+      padding: 0 32px;
+    }
+
+    /* FILTERS & SEARCH */
+    .controls-bar {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .search-input-box {
+      position: relative;
+      width: 100%;
+    }
+
+    .search-input {
+      width: 100%;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 14px 20px 14px 44px;
+      color: #fff;
+      font-size: 15px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent-cyan);
+      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 16px;
+    }
+
+    .filter-pills {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+
+    .pill {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+
+    .pill:hover, .pill.active {
+      background: var(--accent-cyan);
+      color: #0B0E14;
+      border-color: var(--accent-cyan);
+    }
+
+    /* PRODUCT GRID */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--border-accent);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    /* CARD HEADER / THUMBNAIL */
+    .card-thumb-container {
+      position: relative;
+      width: 100%;
+      height: 220px;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .card-thumb-img {
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+      transition: transform 0.3s;
+    }
+
+    .product-card:hover .card-thumb-img {
+      transform: scale(1.05);
+    }
+
+    .thumb-badge-sku {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(11, 14, 20, 0.85);
+      color: var(--accent-cyan);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 8px;
+      border-radius: 6px;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+
+    .thumb-badge-photos {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      background: rgba(11, 14, 20, 0.85);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+
+    /* CARD BODY */
+    .card-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      flex: 1;
+    }
+
+    .card-brand-tag {
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent-amber);
+    }
+
+    .card-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.4;
+      min-height: 40px;
+    }
+
+    .title-box {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 8px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .title-text {
+      font-size: 12px;
+      color: #E2E8F0;
+      font-family: 'JetBrains Mono', monospace;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .btn-copy-title {
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent-cyan);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+
+    .btn-copy-title:hover {
+      background: var(--accent-cyan);
+      color: #0B0E14;
+    }
+
+    /* PRICE & METRICS GRID */
+    .card-price-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      background: rgba(0, 0, 0, 0.25);
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    .price-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .price-item .p-label {
+      font-size: 10px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .price-item .p-val {
+      font-size: 16px;
+      font-weight: 800;
+      font-family: 'JetBrains Mono', monospace;
+      color: #fff;
+    }
+
+    .price-item .p-val.green {
+      color: var(--accent-green);
+    }
+
+    .card-footer-info {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border-color);
+      padding-top: 8px;
+    }
+
+    /* CARD BUTTONS */
+    .card-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 6px;
+      margin-top: auto;
+    }
+
+    .action-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      color: #E2E8F0;
+      padding: 8px 4px;
+      border-radius: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+    }
+
+    .action-btn:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.25);
+      color: #fff;
+    }
+
+    .action-btn.primary {
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent-cyan);
+      border-color: rgba(56, 189, 248, 0.3);
+    }
+
+    .action-btn.primary:hover {
+      background: var(--accent-cyan);
+      color: #0B0E14;
+    }
+
+    /* MODAL */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(8px);
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .modal-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      width: 100%;
+      max-width: 850px;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.8);
+    }
+
+    .modal-header {
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .modal-close-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 24px;
+      cursor: pointer;
+      line-height: 1;
+    }
+
+    .modal-close-btn:hover { color: #fff; }
+
+    .modal-body {
+      padding: 24px;
+      overflow-y: auto;
+      flex: 1;
+      font-size: 14px;
+      color: #CBD5E1;
+    }
+
+    .modal-body pre {
+      background: #0B0E14;
+      border: 1px solid var(--border-color);
+      padding: 16px;
+      border-radius: 10px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: #E2E8F0;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .modal-gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 16px;
+    }
+
+    .gallery-img-card {
+      background: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .gallery-img-card img {
+      width: 100%;
+      height: 140px;
+      object-fit: contain;
+    }
+
+    .gallery-img-card span {
+      font-size: 11px;
+      font-weight: 700;
+      color: #0B0E14;
+    }
+
+    .modal-footer {
+      padding: 16px 24px;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+    }
+
+    /* TOAST NOTIFICATION */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--accent-green);
+      color: #0B0E14;
+      font-weight: 800;
+      font-size: 13px;
+      padding: 12px 20px;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+      display: none;
+      z-index: 2000;
+      animation: slideUp 0.3s ease;
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-content">
+      <div class="brand-group">
+        <div class="brand-logo">BUSK</div>
+        <div>
+          <div class="brand-title">BUSK Peças — Central de Anúncios</div>
+          <div class="brand-subtitle">Gestão Integrada de Catálogo & Publicação Mercado Livre</div>
+        </div>
+      </div>
+
+      <!-- KPI HUD -->
+      <div class="kpi-row">
+        <div class="kpi-card">
+          <span class="kpi-label">Total SKUs</span>
+          <span class="kpi-val cyan" id="kpi-skus">109</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Estoque Total</span>
+          <span class="kpi-val" id="kpi-estoque">1.062 un</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">GMV Potencial</span>
+          <span class="kpi-val green" id="kpi-gmv">R$ 157.019,90</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Sua Comissão (10%)</span>
+          <span class="kpi-val amber" id="kpi-comissao">R$ 15.701,99</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Fotos Prontas</span>
+          <span class="kpi-val cyan" id="kpi-fotos">432 slides</span>
+        </div>
+        <a href="/data/planilha_carga_massa_mercadolivre_109.csv" class="btn-download-csv">
+          📥 Baixar Planilha ML
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <div class="controls-bar">
+      <div class="search-input-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search-box" class="search-input" placeholder="Buscar por Nome da Peça, Part Number, Código OEM, Veículo (ex: Celta, Gol G5, Sabó, Kostal, Arteb)...">
+      </div>
+
+      <div class="filter-pills" id="brand-filters">
+        <button class="pill active" data-filter="all">Todos (109)</button>
+        <button class="pill" data-filter="Kostal">Kostal (29)</button>
+        <button class="pill" data-filter="Sabó">Sabó (26)</button>
+        <button class="pill" data-filter="Arteb">Arteb (18)</button>
+        <button class="pill" data-filter="Fortluz">Fortluz (6)</button>
+        <button class="pill" data-filter="Orgus">Orgus (5)</button>
+        <button class="pill" data-filter="Bosch">Bosch (2)</button>
+        <button class="pill" data-filter="Fiat Mopar">Fiat Mopar (3)</button>
+        <button class="pill" data-filter="Volkswagen">Volkswagen (3)</button>
+      </div>
+    </div>
+
+    <!-- PRODUCT GRID -->
+    <div class="product-grid" id="product-grid">
+      <!-- Inserido dinamicamente via JS -->
+    </div>
+  </main>
+
+  <!-- MODAL DE DESCRIÇÃO -->
+  <div class="modal-overlay" id="modal-desc">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title" id="modal-desc-title">Descrição do Produto</div>
+        <button class="modal-close-btn" onclick="closeModal('modal-desc')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <pre id="modal-desc-text"></pre>
+      </div>
+      <div class="modal-footer">
+        <button class="action-btn" onclick="closeModal('modal-desc')">Fechar</button>
+        <button class="action-btn primary" id="btn-modal-copy-desc">📋 Copiar Descrição Completa</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DE GALERIA -->
+  <div class="modal-overlay" id="modal-gallery">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title" id="modal-gallery-title">Galeria de Fotos Oficiais</div>
+        <button class="modal-close-btn" onclick="closeModal('modal-gallery')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-gallery-grid" id="modal-gallery-grid"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="action-btn primary" id="btn-modal-open-folder">📂 Abrir Pasta no Windows</button>
+        <button class="action-btn" onclick="closeModal('modal-gallery')">Fechar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast">Copiado com sucesso! ✅</div>
+
+  <script>
+    let allProducts = [];
+    let currentFilter = 'all';
+
+    async function loadProducts() {
+      try {
+        const res = await fetch('/api/pecas');
+        allProducts = await res.json();
+        renderProducts(allProducts);
+      } catch (e) {
+        console.error("Erro ao carregar peças:", e);
+      }
+    }
+
+    function renderProducts(items) {
+      const grid = document.getElementById('product-grid');
+      grid.innerHTML = '';
+
+      items.forEach(p => {
+        const thumbUrl = p.fotos && p.fotos.length > 0 ? p.fotos[0] : '/images/qualidade.png';
+        const totalFotos = p.fotos ? p.fotos.length : 0;
+        const totalFat = (p.preco_venda * p.quantidade_estoque).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
+        const comissaoTotal = (p.comissao_10_pct * p.quantidade_estoque).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
+
+        const card = document.createElement('div');
+        card.className = 'product-card';
+        card.innerHTML = `
+          <div class="card-thumb-container">
+            <span class="thumb-badge-sku">#${String(p.id).padStart(2, '0')} • ${p.sku_master}</span>
+            <img src="${thumbUrl}" alt="${p.nome_comercial_base}" class="card-thumb-img" loading="lazy">
+            <span class="thumb-badge-photos">📸 ${totalFotos} slides</span>
+          </div>
+
+          <div class="card-body">
+            <div class="card-brand-tag">${p.marca_fabricante} • COD: ${p.codigo_fabricante}</div>
+            <div class="card-title">${p.nome_comercial_base}</div>
+
+            <div class="title-box">
+              <span class="title-text" title="${p.titulo_ml}">${p.titulo_ml}</span>
+              <button class="btn-copy-title" onclick="copyText('${escapeQuotes(p.titulo_ml)}')">📋 Copiar</button>
+            </div>
+
+            <div class="card-price-grid">
+              <div class="price-item">
+                <span class="p-label">Preço Unitário</span>
+                <span class="p-val">R$ ${p.preco_venda.toFixed(2).replace('.', ',')}</span>
+              </div>
+              <div class="price-item">
+                <span class="p-label">Comissão 10%</span>
+                <span class="p-val green">R$ ${p.comissao_10_pct.toFixed(2).replace('.', ',')}</span>
+              </div>
+            </div>
+
+            <div class="card-footer-info">
+              <span>📦 Estoque: <strong>${p.quantidade_estoque} un</strong> (R$ ${totalFat})</span>
+              <span>🛡️ Garantia: <strong>${p.garantia_meses} meses</strong></span>
+            </div>
+
+            <div class="card-actions">
+              <button class="action-btn primary" onclick="showDescriptionModal(${p.id})">📑 Descrição</button>
+              <button class="action-btn" onclick="showGalleryModal(${p.id})">🖼️ Fotos</button>
+              <button class="action-btn" onclick="openFolder(${p.id})">📂 Pasta</button>
+            </div>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    function filterAndSearch() {
+      const q = document.getElementById('search-box').value.toLowerCase();
+      const filtered = allProducts.filter(p => {
+        const matchFilter = (currentFilter === 'all') || (p.marca_fabricante.toLowerCase().includes(currentFilter.toLowerCase()));
+        
+        let matchSearch = true;
+        if (q) {
+          const compatsStr = (p.compatibilidades || []).map(c => `${c.montadora} ${c.veiculo_modelo} ${c.motorizacao}`).join(' ').toLowerCase();
+          const targetStr = `${p.nome_comercial_base} ${p.codigo_fabricante} ${p.sku_master} ${p.marca_fabricante} ${p.codigos_oem} ${compatsStr}`.toLowerCase();
+          matchSearch = targetStr.includes(q);
+        }
+
+        return matchFilter && matchSearch;
+      });
+
+      renderProducts(filtered);
+    }
+
+    // EVENTOS DE FILTRO
+    document.querySelectorAll('#brand-filters .pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#brand-filters .pill').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentFilter = btn.getAttribute('data-filter');
+        filterAndSearch();
+      });
+    });
+
+    document.getElementById('search-box').addEventListener('input', filterAndSearch);
+
+    // FUNÇÕES DE MODAIS & AÇÕES
+    function showDescriptionModal(id) {
+      const p = allProducts.find(x => x.id === id);
+      if (!p) return;
+
+      document.getElementById('modal-desc-title').innerText = `Descrição ML: ${p.nome_comercial_base}`;
+      
+      // Extrai apenas a descrição limpa do markdown
+      let descOnly = p.anuncio_completo_md;
+      if (descOnly.includes('## 📝 Descrição do Produto')) {
+        descOnly = descOnly.split('## 📝 Descrição do Produto')[1].trim();
+      }
+
+      document.getElementById('modal-desc-text').innerText = descOnly;
+      document.getElementById('btn-modal-copy-desc').onclick = () => copyText(descOnly);
+      openModal('modal-desc');
+    }
+
+    function showGalleryModal(id) {
+      const p = allProducts.find(x => x.id === id);
+      if (!p) return;
+
+      document.getElementById('modal-gallery-title').innerText = `Galeria Oficial: ${p.nome_comercial_base} (${p.fotos.length} slides)`;
+      const gGrid = document.getElementById('modal-gallery-grid');
+      gGrid.innerHTML = '';
+
+      p.fotos.forEach((fUrl, idx) => {
+        const item = document.createElement('div');
+        item.className = 'gallery-img-card';
+        item.innerHTML = `
+          <img src="${fUrl}" alt="Slide ${idx + 1}" loading="lazy">
+          <span>Slide ${idx + 1}</span>
+        `;
+        gGrid.appendChild(item);
+      });
+
+      document.getElementById('btn-modal-open-folder').onclick = () => openFolder(id);
+      openModal('modal-gallery');
+    }
+
+    async function openFolder(id) {
+      try {
+        await fetch(`/api/open_folder?id=${id}`);
+        showToast("Pasta aberta no Windows Explorer! 📂");
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    function openModal(id) {
+      document.getElementById(id).style.display = 'flex';
+    }
+
+    function closeModal(id) {
+      document.getElementById(id).style.display = 'none';
+    }
+
+    function copyText(txt) {
+      navigator.clipboard.writeText(txt).then(() => {
+        showToast("Copiado com sucesso! 📋");
+      }).catch(err => {
+        console.error(err);
+      });
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById('toast');
+      t.innerText = msg;
+      t.style.display = 'block';
+      setTimeout(() => { t.style.display = 'none'; }, 2200);
+    }
+
+    function escapeQuotes(str) {
+      if (!str) return '';
+      return str.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    }
+
+    // INICIALIZA
+    loadProducts();
+  </script>
+</body>
+</html>

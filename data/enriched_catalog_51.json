@@ -1,0 +1,4390 @@
+{
+  "status": "SUCCESS",
+  "fase": "FASE_1_ENRIQUECIMENTO_TECNICO",
+  "timestamp_enriquecimento": "2026-08-17T15:10:00Z",
+  "total_itens": 51,
+  "total_relacoes_compatibilidade": 148,
+  "faturamento_bruto_potencial": 20929.9,
+  "comissao_total_potencial": 2092.99,
+  "itens": [
+    {
+      "id": 1,
+      "sku_master": "SKU-001-KOS-10013879",
+      "nome_comercial_base": "Chave de Seta Chevrolet Celta e Prisma com Limpador Dianteiro Traseiro e Pisca Alerta Kostal 10013879",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10013879",
+      "codigos_oem": [
+        "94749142"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12879",
+        "Multiqualita GM91939",
+        "Diretec DTC1142",
+        "Ospina 042142"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção (Lado Esquerdo / Direito Integrado)",
+      "quantidade_estoque": 1,
+      "preco_venda": 459.9,
+      "comissao_10_pct": 45.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "conexoes_terminais": "Conector padrão original 22 pinos (Plug & Play)",
+        "material": "Polímero de alta densidade PA66 com contatos em cobre eletrolítico",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Lampejo de farol alto e seleção alto/baixo",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Limpador e lavador do vidro traseiro",
+          "Interruptor de emergência (pisca-alerta integrado na carcaça)"
+        ],
+        "dimensoes_aprox_cm": "24 x 14 x 9",
+        "peso_gramas": 380,
+        "padrao_fabricacao": "Norma Original GM / ISO 9001"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Celta",
+          "versao": "Life / Spirit / Super / LT / Advantage",
+          "motorizacao": "1.0 8V VHC / VHCE Flexpower",
+          "combustivel": "Flex",
+          "ano_inicio": 2010,
+          "ano_fim": 2015,
+          "notas_especiais": "Exclusivo para versões com limpador traseiro e pisca-alerta na carcaça superior da chave."
+        },
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Prisma",
+          "versao": "Joy / Maxx / LT",
+          "motorizacao": "1.0 8V / 1.4 8V Econoflex",
+          "combustivel": "Flex",
+          "ano_inicio": 2010,
+          "ano_fim": 2012,
+          "notas_especiais": "Aplica-se aos modelos de primeira geração reestilizados com limpador traseiro."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta celta 2010 2011 2012 2013 2014 2015",
+        "chave de seta prisma com limpador traseiro kostal",
+        "comando de coluna celta com pisca alerta original kostal 10013879",
+        "chave do limpador e seta gm celta prisma 94749142"
+      ],
+      "diferenciais_competitivos": [
+        "Produto Original Kostal, mesma fornecedora da linha de montagem da GM",
+        "Contatos elétricos reforçados que evitam superaquecimento e derretimento do conector",
+        "Acionamento macio e durabilidade certificada para mais de 100.000 ciclos de operação",
+        "Garantia nacional de 6 meses contra defeitos de fabricação"
+      ],
+      "alertas_compatibilidade": [
+        "Não compatível com modelos Celta de 2000 a 2009 (utilizam painel antigo e outro conector).",
+        "Não compatível com modelos sem limpador traseiro (utilizar Kostal 10015096 ou 10015530)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 4
+      }
+    },
+    {
+      "id": 2,
+      "sku_master": "SKU-002-EUR-20573",
+      "nome_comercial_base": "Motor de Partida Arranque Toyota Hilux 2.4 2.8 3.0 Diesel Euro 20573",
+      "marca_fabricante": "Euro",
+      "codigo_fabricante": "20573",
+      "codigos_oem": [
+        "28100-54070",
+        "28100-54090",
+        "28100-54380",
+        "28100-54430"
+      ],
+      "codigos_cruzados": [
+        "Bosch 0001109033",
+        "Denso 228000-0230",
+        "Delco Remy 8000185",
+        "ZM 8010101"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Motores de Partida e Alternadores",
+      "posicao_instalacao": "Cofre do Motor / Acoplamento no Volante do Motor (Lado Direito)",
+      "quantidade_estoque": 1,
+      "preco_venda": 429.9,
+      "comissao_10_pct": 42.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "potencia_kw": "2.2 kW",
+        "numero_dentes_pinhao": "10 Dentes",
+        "sentido_rotacao": "Horário (CW)",
+        "material": "Carcaça em alumínio fundido e induzido com enrolamento de cobre puro",
+        "tipo_acionamento": "Eletromecânico com relé de partida integrado e bendix temperado",
+        "dimensoes_aprox_cm": "28 x 18 x 14",
+        "peso_gramas": 4850,
+        "padrao_fabricacao": "Padrão OEM Heavy Duty Diesel"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Toyota",
+          "veiculo_modelo": "Hilux",
+          "versao": "Pick-up / Cabine Simples / Cabine Dupla / SW4",
+          "motorizacao": "2.4 Diesel (2L) / 2.8 Diesel (3L) / 3.0 Diesel Aspirado e Turbo (5L / 1KZ-TE)",
+          "combustivel": "Diesel",
+          "ano_inicio": 1992,
+          "ano_fim": 2004,
+          "notas_especiais": "Compatível com todas as versões com motor Toyota série L e KZ."
+        },
+        {
+          "montadora": "Toyota",
+          "veiculo_modelo": "HiAce",
+          "versao": "Van / Furgão / Passageiro",
+          "motorizacao": "2.4D / 2.8D",
+          "combustivel": "Diesel",
+          "ano_inicio": 1992,
+          "ano_fim": 2002,
+          "notas_especiais": "Acoplamento direto no volante original de 10 dentes."
+        }
+      ],
+      "termos_seo": [
+        "motor de partida arranque toyota hilux 2.8 3.0 diesel",
+        "motor de arranque hilux sw4 antiga 2.8 1993 1994 1995 1996 1997 1998 1999 2000",
+        "motor arranque euro 20573 substitui 2810054070 denso",
+        "motor partida toyota hiace van 2.4 diesel 10 dentes"
+      ],
+      "diferenciais_competitivos": [
+        "Alto torque de partida a frio para motores diesel de alta compressão",
+        "Engrenagens do pinhão em aço temperado com alta resistência ao desgaste",
+        "Carcaça blindada contra infiltração de lama, água e poeira",
+        "Testado 100% em bancada de carga antes do envio"
+      ],
+      "alertas_compatibilidade": [
+        "Não compatível com Hilux motor 3.0 D4D 1KD-FTV (2005 em diante que utiliza 9 ou 11 dentes com outra furação).",
+        "Não compatível com modelos Hilux com motor a gasolina 2.7 VVTi."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 7
+      }
+    },
+    {
+      "id": 3,
+      "sku_master": "SKU-003-MUL-MQ0198",
+      "nome_comercial_base": "Motor de Partida Arranque VW Fusca Brasilia Kombi Gol BX 1300 1500 1600 MultiQualita MQ0198",
+      "marca_fabricante": "MultiQualita",
+      "codigo_fabricante": "MQ0198",
+      "codigos_oem": [
+        "9000082006",
+        "9000082046",
+        "9000082061",
+        "113911023B"
+      ],
+      "codigos_cruzados": [
+        "Bosch 9000082006",
+        "Cinap 6006",
+        "ZM 8010201",
+        "Euro 20501"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Motores de Partida e Alternadores",
+      "posicao_instalacao": "Cofre do Motor / Acoplamento na Caixa de Câmbio",
+      "quantidade_estoque": 1,
+      "preco_venda": 639.9,
+      "comissao_10_pct": 63.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "potencia_kw": "0.95 kW",
+        "numero_dentes_pinhao": "9 Dentes",
+        "sentido_rotacao": "Horário (CW)",
+        "material": "Carcaça metálica tratada e bobinas em cobre com alta condutividade",
+        "fixacao": "2 furos na flange da carcaça do câmbio",
+        "dimensoes_aprox_cm": "23 x 15 x 12",
+        "peso_gramas": 3650,
+        "padrao_fabricacao": "Linha de Reposição Premium VW Clássicos"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Fusca",
+          "versao": "1300 / 1500 / 1600 / Itamar",
+          "motorizacao": "1.3 / 1.5 / 1.6 Boxer Refrigerado a Ar",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1976,
+          "ano_fim": 1996,
+          "notas_especiais": "Substitui perfeitamente os motores Bosch clássicos no sistema de 12V."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Brasilia",
+          "versao": "Standard / 2 Portas / 4 Portas",
+          "motorizacao": "1.6 Boxer a Ar (Simples e Dupla Carburação)",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1976,
+          "ano_fim": 1982,
+          "notas_especiais": "Encaixe direto na carcaça de embreagem."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Kombi",
+          "versao": "Furgão / Pick-up / Standard / Clipper",
+          "motorizacao": "1.6 Boxer a Ar (Carburada e Injeção Eletrônica)",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1976,
+          "ano_fim": 2005,
+          "notas_especiais": "Compatível com todas as Kombis com motor boxer a ar de 12V."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Gol",
+          "versao": "BX",
+          "motorizacao": "1.3 / 1.6 Boxer a Ar",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1980,
+          "ano_fim": 1986,
+          "notas_especiais": "Exclusivo para motor a ar ('batedeira')."
+        }
+      ],
+      "termos_seo": [
+        "motor de partida arranque fusca 1300 1500 1600 12v",
+        "motor de arranque kombi ar 1600 multiqualita mq0198",
+        "motor arranque brasilia 1.6 gol bx motor ar",
+        "motor partida bosch fusca 9000082006 mq0198 novo"
+      ],
+      "diferenciais_competitivos": [
+        "Partida rápida com torque elevado, eliminando o clássico 'pesadelo' de partida a quente dos motores boxer",
+        "Novo de fábrica, sem peças recondicionadas ou recuperadas",
+        "Buchas autolubrificantes sinterizadas para máxima durabilidade",
+        "Compatibilidade com carburador simples, dupla carburação e injeção Mi monoponto/multiponto a ar"
+      ],
+      "alertas_compatibilidade": [
+        "Não compatível com modelos de Fusca antigos com sistema elétrico de 6 Volts (anteriores a 1967).",
+        "Não compatível com Kombi com motor 1.4 Flex refrigerado a água (EA111)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 10
+      }
+    },
+    {
+      "id": 4,
+      "sku_master": "SKU-004-MOP-51997820",
+      "nome_comercial_base": "Motor de Partida Arranque Original Fiat Uno Palio Strada Mobi Fiorino Firefly e Fire 51997820",
+      "marca_fabricante": "Fiat / Mopar",
+      "codigo_fabricante": "51997820",
+      "codigos_oem": [
+        "51997820",
+        "51950821",
+        "52026857"
+      ],
+      "codigos_cruzados": [
+        "Denso BC428000-9830",
+        "Valeo TSC10R1",
+        "Bosch F000AL0145",
+        "Euro 20580"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Motores de Partida e Alternadores",
+      "posicao_instalacao": "Cofre do Motor / Bloco Traseiro (Transmissão)",
+      "quantidade_estoque": 1,
+      "preco_venda": 849.9,
+      "comissao_10_pct": 84.99,
+      "garantia_meses": 12,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "potencia_kw": "1.0 kW",
+        "numero_dentes_pinhao": "9 Dentes / Redução Planetária",
+        "sentido_rotacao": "Anti-horário (CCW)",
+        "tecnologia": "Motor de partida compacto com engrenagens planetárias de redução (alta eficiência com menor consumo de bateria)",
+        "dimensoes_aprox_cm": "20 x 14 x 11",
+        "peso_gramas": 2750,
+        "padrao_fabricacao": "Original Genuíno Fiat Mopar Automotiva"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Uno",
+          "versao": "Vivace / Attractive / Way / Sporting / Drive",
+          "motorizacao": "1.0 8V Fire EVO / 1.0 6V Firefly 3 Cilindros / 1.3 8V Firefly",
+          "combustivel": "Flex",
+          "ano_inicio": 2012,
+          "ano_fim": 2021,
+          "notas_especiais": "Original de fábrica para modelos com e sem Start&Stop."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Mobi",
+          "versao": "Easy / Like / Way / Drive / Trekking",
+          "motorizacao": "1.0 8V Fire EVO / 1.0 6V Firefly",
+          "combustivel": "Flex",
+          "ano_inicio": 2016,
+          "ano_fim": 2024,
+          "notas_especiais": "Encaixe perfeito original na furação do câmbio."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Strada",
+          "versao": "Working / Hard Working / Freedom / Endurance",
+          "motorizacao": "1.4 8V Fire EVO / 1.3 8V Firefly",
+          "combustivel": "Flex",
+          "ano_inicio": 2014,
+          "ano_fim": 2024,
+          "notas_especiais": "Compatível com a geração antiga e Nova Strada."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio",
+          "versao": "Attractive / Essence",
+          "motorizacao": "1.0 8V Fire EVO / 1.4 8V Fire EVO",
+          "combustivel": "Flex",
+          "ano_inicio": 2012,
+          "ano_fim": 2018,
+          "notas_especiais": "Novo Palio G5."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Fiorino",
+          "versao": "Hard Working / Endurance",
+          "motorizacao": "1.4 8V Fire EVO",
+          "combustivel": "Flex",
+          "ano_inicio": 2014,
+          "ano_fim": 2024,
+          "notas_especiais": "Nova Fiorino furgão."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Grand Siena",
+          "versao": "Attractive",
+          "motorizacao": "1.4 8V Fire EVO / 1.0 8V Fire EVO",
+          "combustivel": "Flex / Tetrafuel",
+          "ano_inicio": 2012,
+          "ano_fim": 2021,
+          "notas_especiais": "Modelos com motor Fire EVO."
+        }
+      ],
+      "termos_seo": [
+        "motor de partida original fiat uno mobi strada fire fly 51997820",
+        "motor arranque novo uno vivace fiorino 1.4 fire evo denso",
+        "motor partida original mopar 51997820 palio grand siena",
+        "arranque fiat strada endurance 1.4 2020 2021 2022 2023"
+      ],
+      "diferenciais_competitivos": [
+        "Peça 100% Genuína Fiat Mopar na caixa lacrada",
+        "Sistema com redução planetária que dobra o torque de partida e preserva a vida útil da bateria",
+        "Garantia estendida de 12 meses direto de fábrica",
+        "Projetado para resistir a milhares de ciclos em trânsito urbano pesado"
+      ],
+      "alertas_compatibilidade": [
+        "Não compatível com motores 1.6 / 1.8 16V E.torQ.",
+        "Não compatível com motores 1.0 / 1.3 / 1.5 Fire 8V antigos (anteriores a 2010 com motor de arranque de carcaça grande)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 13
+      }
+    },
+    {
+      "id": 5,
+      "sku_master": "SKU-005-MOP-55254306",
+      "nome_comercial_base": "Corpo de Borboleta TBI Eletronico Fiat Toro Argo Cronos Jeep Renegade 1.6 1.8 16V E.torQ 55254306",
+      "marca_fabricante": "Fiat / Mopar",
+      "codigo_fabricante": "55254306",
+      "codigos_oem": [
+        "55254306",
+        "55227810",
+        "55240212"
+      ],
+      "codigos_cruzados": [
+        "Magneti Marelli SMF00801",
+        "Magneti Marelli 44SMF8",
+        "Bosch 0280750580"
+      ],
+      "categoria_nivel_1": "Injeção Eletrônica e Alimentação",
+      "categoria_nivel_2": "Corpos de Borboleta (TBI) e Atuadores",
+      "posicao_instalacao": "Coletor de Admissão de Ar (Cofre do Motor)",
+      "quantidade_estoque": 1,
+      "preco_venda": 599.9,
+      "comissao_10_pct": 59.99,
+      "garantia_meses": 12,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "diametro_garganta_mm": "52 mm",
+        "conector": "6 Pinos (Terminais banhados a prata com sensor TPS duplo integrado)",
+        "tipo_acionamento": "Drive-by-Wire (Acelerador Eletrônico 100% Digital)",
+        "material": "Corpo usinado em liga de alumínio fundido e engrenagens reforçadas em POM de engenharia",
+        "dimensoes_aprox_cm": "16 x 14 x 11",
+        "peso_gramas": 1150,
+        "padrao_fabricacao": "Original de Linha de Montagem Fiat / Jeep Mopar"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Toro",
+          "versao": "Freedom / Opening Edition / Endurance",
+          "motorizacao": "1.8 16V E.torQ EVO Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2016,
+          "ano_fim": 2022,
+          "notas_especiais": "Câmbio manual e automático 6 marchas."
+        },
+        {
+          "montadora": "Jeep",
+          "veiculo_modelo": "Renegade",
+          "versao": "Sport / Longitude / Night Eagle / STD / Limited",
+          "motorizacao": "1.8 16V E.torQ EVO Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2015,
+          "ano_fim": 2021,
+          "notas_especiais": "Motor 1.8 Flex E.torQ."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Argo",
+          "versao": "Precision / HGT / Trekking",
+          "motorizacao": "1.8 16V E.torQ EVO Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2017,
+          "ano_fim": 2021,
+          "notas_especiais": "Câmbio manual e automático."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Cronos",
+          "versao": "Drive / Precision / HGT",
+          "motorizacao": "1.8 16V E.torQ EVO Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2018,
+          "ano_fim": 2021,
+          "notas_especiais": "Motor 1.8 16V."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Bravo",
+          "versao": "Essence / Sporting / Blackmotion",
+          "motorizacao": "1.8 16V E.torQ",
+          "combustivel": "Flex",
+          "ano_inicio": 2011,
+          "ano_fim": 2016,
+          "notas_especiais": "Motor E.torQ."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio",
+          "versao": "Essence / Sporting",
+          "motorizacao": "1.6 16V / 1.8 16V E.torQ",
+          "combustivel": "Flex",
+          "ano_inicio": 2011,
+          "ano_fim": 2017,
+          "notas_especiais": "Novo Palio G5."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Grand Siena",
+          "versao": "Essence",
+          "motorizacao": "1.6 16V E.torQ",
+          "combustivel": "Flex",
+          "ano_inicio": 2012,
+          "ano_fim": 2018,
+          "notas_especiais": "Motor 1.6 16V."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Punto",
+          "versao": "Essence / Sporting / Blackmotion",
+          "motorizacao": "1.6 16V / 1.8 16V E.torQ",
+          "combustivel": "Flex",
+          "ano_inicio": 2011,
+          "ano_fim": 2017,
+          "notas_especiais": "Motor E.torQ."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Doblò",
+          "versao": "Essence / Adventure",
+          "motorizacao": "1.8 16V E.torQ",
+          "combustivel": "Flex",
+          "ano_inicio": 2011,
+          "ano_fim": 2021,
+          "notas_especiais": "Motor 1.8 16V E.torQ."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Linea",
+          "versao": "Essence / HLX / Absolute",
+          "motorizacao": "1.8 16V E.torQ",
+          "combustivel": "Flex",
+          "ano_inicio": 2011,
+          "ano_fim": 2016,
+          "notas_especiais": "Motor 1.8 16V."
+        }
+      ],
+      "termos_seo": [
+        "corpo de borboleta tbi jeep renegade fiat toro 1.8 flex original 55254306",
+        "tbi acelerador eletronico argo cronos hgt 1.8 16v etorq",
+        "corpo borboleta punto bravo doblo 1.8 16v etorq magneti marelli",
+        "tbi original mopar 55254306 55227810 smf00801 fiat renegade toro"
+      ],
+      "diferenciais_competitivos": [
+        "Produto Original Genuíno Mopar / Magneti Marelli, 100% calibrado de fábrica",
+        "Elimina oscilações de marcha lenta, perda de potência e luz de injeção acesa",
+        "Sensor TPS duplo de alta precisão com resposta instantânea ao pedal do acelerador",
+        "Acompanha anel de vedação original de alta performance térmica"
+      ],
+      "alertas_compatibilidade": [
+        "Não compatível com motores 1.0 e 1.3 Firefly.",
+        "Não compatível com motores 1.4 T-Jet ou 1.3 Turbo 270 GSE.",
+        "Requer procedimento de aprendizado de corpo de borboleta via scanner automotivo após a instalação."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 16
+      }
+    },
+    {
+      "id": 6,
+      "sku_master": "SKU-006-MM-50001",
+      "nome_comercial_base": "Bico Injetor Monoponto Magneti Marelli IWM50001 Uno Gol Escort Clio SPI Gasolina Alcool 50001",
+      "marca_fabricante": "Magneti Marelli",
+      "codigo_fabricante": "IWM50001",
+      "codigos_oem": [
+        "7078028",
+        "0269060311",
+        "7701380004",
+        "93223680"
+      ],
+      "codigos_cruzados": [
+        "YMAX 50001",
+        "Bosch 0280150698",
+        "DPL DPL50001",
+        "DS 1101",
+        "Short Code 50001"
+      ],
+      "categoria_nivel_1": "Injeção Eletrônica e Alimentação",
+      "categoria_nivel_2": "Bicos Injetores e Válvulas de Injeção",
+      "posicao_instalacao": "Corpo de Injeção Monoponto (TBI Central)",
+      "quantidade_estoque": 1,
+      "preco_venda": 489.9,
+      "comissao_10_pct": 48.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "resistencia_ohmios": "Baixa impedância (1.5 a 2.5 Ohms)",
+        "tipo_injecao": "SPI Monoponto (Single Point Injection) com 10 furos de atomização",
+        "pressao_trabalho_bar": "1.0 a 1.5 bar",
+        "vazao_estatica_ml_min": "480 a 520 ml/min a 1.0 bar",
+        "dimensoes_aprox_cm": "7 x 4 x 4",
+        "peso_gramas": 120,
+        "padrao_fabricacao": "Padrão Original Magneti Marelli Linha Clássica"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Uno",
+          "versao": "CS / Mille EP / EX / SX / ELX / 1.5 i.e. / 1.6 i.e.",
+          "motorizacao": "1.0 SPI / 1.5 SPI / 1.6 SPI Fiasa e Sevel",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1994,
+          "ano_fim": 2001,
+          "notas_especiais": "Injeção Monoponto Magneti Marelli G7 / Microplex."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Gol",
+          "versao": "CL / GL / Plus (Quadrado e Bola G2)",
+          "motorizacao": "1.6 SPI / 1.8 SPI AP",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1994,
+          "ano_fim": 1996,
+          "notas_especiais": "Injeção FIC EEC-IV Monoponto."
+        },
+        {
+          "montadora": "Ford",
+          "veiculo_modelo": "Escort",
+          "versao": "GL / Ghia / Verona",
+          "motorizacao": "1.6 SPI / 1.8 SPI AP",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1994,
+          "ano_fim": 1996,
+          "notas_especiais": "Sistema monoponto Autolatina."
+        },
+        {
+          "montadora": "Renault",
+          "veiculo_modelo": "Clio",
+          "versao": "RL / RN",
+          "motorizacao": "1.6 8V SPI (Motor C3L)",
+          "combustivel": "Gasolina",
+          "ano_inicio": 1996,
+          "ano_fim": 1999,
+          "notas_especiais": "Injeção monoponto."
+        }
+      ],
+      "termos_seo": [
+        "bico injetor monoponto uno mille ep 1.5 1.6 iwm50001",
+        "valvula injetora monoponto gol quadrado bolinha ap 1.6 1.8",
+        "bico monoponto escort verona clio 1.6 50001 magneti marelli",
+        "bico injetor tbi monoponto 1 bico fiat vw ford 50001"
+      ],
+      "diferenciais_competitivos": [
+        "Excelente pulverização com padrão cônico homogêneo de 10 furos",
+        "Economia de combustível imediata e restauração da partida a frio",
+        "Acompanha kit completo de anéis o-ring de vedação em borracha nitrílica (Viton)",
+        "Testado eletronicamente em bancada de fluxo dinâmico e estático"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em sistemas multiponto (MPI de 4 bicos injetores).",
+        "Verifique a resistência ôhmica da central de injeção antes da instalação."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 19
+      }
+    },
+    {
+      "id": 7,
+      "sku_master": "SKU-007-VW-04C1333132",
+      "nome_comercial_base": "Flauta Tubo Distribuidor de Combustivel Original VW Up Gol Fox Polo EA211 1.0 3 Cilindros 04C1333132",
+      "marca_fabricante": "Volkswagen",
+      "codigo_fabricante": "04C1333132",
+      "codigos_oem": [
+        "04C1333132",
+        "04C133312",
+        "04C133312A",
+        "04C133313"
+      ],
+      "codigos_cruzados": [
+        "DS 1904C",
+        "Magneti Marelli FL04C",
+        "VP 04C313"
+      ],
+      "categoria_nivel_1": "Injeção Eletrônica e Alimentação",
+      "categoria_nivel_2": "Flautas de Combustível e Coletores",
+      "posicao_instalacao": "Cabeçote / Coletor de Admissão (Cofre do Motor)",
+      "quantidade_estoque": 1,
+      "preco_venda": 249.9,
+      "comissao_10_pct": 24.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "material": "Tubo estrutural de alta precisão em aço inoxidável / polímero reforçado para 4.2 bar",
+        "numero_alojamentos_injetores": "3 Saídas (Motor 3 Cilindros 12V EA211)",
+        "conexao_entrada": "Engate rápido tipo Quick-Connect padrão VW",
+        "pressao_maxima_trabalho": "6.0 bar",
+        "dimensoes_aprox_cm": "26 x 6 x 5",
+        "peso_gramas": 280,
+        "padrao_fabricacao": "Peça Genuína Volkswagen Linha de Montagem"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Up!",
+          "versao": "Take / Move / High / Cross / Pepper",
+          "motorizacao": "1.0 12V 3 Cilindros EA211 MPI Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2014,
+          "ano_fim": 2021,
+          "notas_especiais": "Motores aspirados EA211 MPI."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Gol",
+          "versao": "Trendline / Comfortline / Track (G6, G7, G8)",
+          "motorizacao": "1.0 12V 3 Cilindros EA211 Total Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2016,
+          "ano_fim": 2023,
+          "notas_especiais": "Gol 3 cilindros."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Voyage",
+          "versao": "Trendline / Comfortline",
+          "motorizacao": "1.0 12V 3 Cilindros EA211",
+          "combustivel": "Flex",
+          "ano_inicio": 2016,
+          "ano_fim": 2023,
+          "notas_especiais": "Voyage 3 cilindros."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Fox / Bluemotion",
+          "versao": "Bluemotion / Connect / Extreme",
+          "motorizacao": "1.0 12V 3 Cilindros EA211",
+          "combustivel": "Flex",
+          "ano_inicio": 2014,
+          "ano_fim": 2021,
+          "notas_especiais": "Fox 3 cilindros."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Polo",
+          "versao": "1.0 MPI",
+          "motorizacao": "1.0 12V 3 Cilindros EA211 MPI",
+          "combustivel": "Flex",
+          "ano_inicio": 2018,
+          "ano_fim": 2024,
+          "notas_especiais": "Versão aspirada MPI."
+        }
+      ],
+      "termos_seo": [
+        "flauta bicos injetores vw up gol fox polo 1.0 3 cilindros ea211",
+        "tubo distribuidor combustivel original volkswagen 04c1333132",
+        "flauta de combustivel vw gol g7 g8 1.0 12v 3cc original",
+        "flauta injecao vw polo mpi track 1.0 3 cilindros 04c133312"
+      ],
+      "diferenciais_competitivos": [
+        "Produto Original Genuíno VW com gravação do part number no corpo da peça",
+        "Elimina vazamentos de combustível e quedas de pressão na linha de alimentação",
+        "Encaixe milimétrico para os bicos injetores e travas originais",
+        "Resistente à corrosão por etanol e gasolina adulterada"
+      ],
+      "alertas_compatibilidade": [
+        "Não compatível com motores 1.0 4 Cilindros 8V EA111 (Gol G4/G5 4 cilindros).",
+        "Não compatível com motores 1.0 TSI Turbo com injeção direta de alta pressão (flauta metálica HP)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 22
+      }
+    },
+    {
+      "id": 8,
+      "sku_master": "SKU-008-BOS-0280730508",
+      "nome_comercial_base": "Corpo de Borboleta TBI Bosch VW Gol Fox Voyage Saveiro SpaceFox 1.0 1.6 8V EA111 0280750508",
+      "marca_fabricante": "Bosch",
+      "codigo_fabricante": "0280750508",
+      "codigos_oem": [
+        "030133062D",
+        "030133062",
+        "030133062S"
+      ],
+      "codigos_cruzados": [
+        "Bosch 0280730508",
+        "Bosch 0 280 750 508",
+        "Magneti Marelli 44SMF7",
+        "VDO A2C59512938"
+      ],
+      "categoria_nivel_1": "Injeção Eletrônica e Alimentação",
+      "categoria_nivel_2": "Corpos de Borboleta (TBI) e Atuadores",
+      "posicao_instalacao": "Coletor de Admissão de Ar (Cofre do Motor)",
+      "quantidade_estoque": 1,
+      "preco_venda": 439.9,
+      "comissao_10_pct": 43.99,
+      "garantia_meses": 12,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "diametro_borboleta_mm": "44 mm",
+        "conector": "6 Pinos (Terminais banhados a ouro com sensor Hall de posição TPS)",
+        "tipo_comando": "Drive-by-Wire (Acelerador Eletrônico Total Flex)",
+        "material": "Carcaça fundida em liga de alumínio ALSI9CU3 e engrenagens de polímero com auto-lubrificação",
+        "dimensoes_aprox_cm": "15 x 13 x 10",
+        "peso_gramas": 920,
+        "padrao_fabricacao": "Padrão Original Bosch Alemanha / Brasil"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Gol",
+          "versao": "Trend / Power / Rallye / Seleção (G5, G6)",
+          "motorizacao": "1.0 8V / 1.6 8V EA111 Total Flex (VHT e CCRA)",
+          "combustivel": "Flex",
+          "ano_inicio": 2008,
+          "ano_fim": 2016,
+          "notas_especiais": "Gol G5 e G6 com motor EA111."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Fox",
+          "versao": "City / Plus / Route / Prime / Highline",
+          "motorizacao": "1.0 8V / 1.6 8V EA111 Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2008,
+          "ano_fim": 2015,
+          "notas_especiais": "Fox 4 cilindros EA111."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Voyage",
+          "versao": "Trend / Comfortline / Highline (G5, G6)",
+          "motorizacao": "1.0 8V / 1.6 8V EA111 Total Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2008,
+          "ano_fim": 2016,
+          "notas_especiais": "Voyage G5/G6 EA111."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Saveiro",
+          "versao": "Trooper / Cross / Robust / Trendline (G5, G6)",
+          "motorizacao": "1.6 8V EA111 Total Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2009,
+          "ano_fim": 2016,
+          "notas_especiais": "Saveiro G5/G6 EA111."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "SpaceFox",
+          "versao": "Plus / Comfortline / Highline",
+          "motorizacao": "1.6 8V EA111 Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2008,
+          "ano_fim": 2015,
+          "notas_especiais": "Motor 1.6 EA111."
+        }
+      ],
+      "termos_seo": [
+        "corpo borboleta tbi bosch gol voyage fox saveiro g5 g6 1.0 1.6 0280750508",
+        "tbi acelerador eletronico vw ea111 030133062d bosch original",
+        "corpo de borboleta fox 1.6 flex bosch 0 280 750 508 novo",
+        "tbi gol g5 1.0 flex bosch original na caixa"
+      ],
+      "diferenciais_competitivos": [
+        "Peça 100% Original Bosch com gravação e holograma de autenticidade",
+        "Sensor TPS integrado de alta precisão com tecnologia sem contato (vida útil estendida)",
+        "Acaba com engasgos na aceleração, marcha lenta irregular e falhas de EPC no painel",
+        "Garantia nacional Bosch de 1 ano em todo o Brasil"
+      ],
+      "alertas_compatibilidade": [
+        "Não compatível com motores 1.0 3 Cilindros 12V EA211 (Up, Fox 3cc, Polo novo).",
+        "Não compatível com motores 1.6 16V MSI EA211."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 25
+      }
+    },
+    {
+      "id": 9,
+      "sku_master": "SKU-009-MUL-MQ0144",
+      "nome_comercial_base": "Eletroventilador Ventoinha Radiador Audi A3 Golf Bora Fox Polo 12V 345mm 7 Pas MultiQualita MQ0144",
+      "marca_fabricante": "MultiQualita",
+      "codigo_fabricante": "MQ0144",
+      "codigos_oem": [
+        "1J0959455F",
+        "1J0959455K",
+        "6X0959455F",
+        "6Q0959455A"
+      ],
+      "codigos_cruzados": [
+        "Gate V2010144",
+        "Bosch 0130107289",
+        "Valeo 698602",
+        "DTA 0144",
+        "Klaüs DK60451"
+      ],
+      "categoria_nivel_1": "Arrefecimento e Climatização",
+      "categoria_nivel_2": "Eletroventiladores e Motores de Ventoinha",
+      "posicao_instalacao": "Radiador de Água / Defletor Frontal (Lado Esquerdo / Principal)",
+      "quantidade_estoque": 1,
+      "preco_venda": 319.9,
+      "comissao_10_pct": 31.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "potencia_watts": "250W / 100W (2 Velocidades)",
+        "diametro_helice_mm": "345 mm",
+        "numero_pas": "7 Pás Balanceadas Dinamicamente",
+        "sentido_fluxo": "Aspirante (puxa o ar de fora para dentro do radiador)",
+        "conector": "Plugue original 3 pinos (Velocidade 1, Velocidade 2 e Terra)",
+        "dimensoes_aprox_cm": "36 x 36 x 9",
+        "peso_gramas": 1850,
+        "padrao_fabricacao": "Padrão Original Grupo VAG (VW / Audi)"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Golf",
+          "versao": "G4 / G4.5 (Generation, Sportline, Flash, GTI)",
+          "motorizacao": "1.6 8V / 1.8 20V Turbo / 2.0 8V",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 1999,
+          "ano_fim": 2013,
+          "notas_especiais": "Ventoinha principal do radiador com ar-condicionado."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Bora",
+          "versao": "Comfortline / Highline",
+          "motorizacao": "2.0 8V",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2000,
+          "ano_fim": 2011,
+          "notas_especiais": "Ventoinha grande 345mm."
+        },
+        {
+          "montadora": "Audi",
+          "veiculo_modelo": "A3",
+          "versao": "1.6 / 1.8 20V / 1.8T (150cv / 180cv)",
+          "motorizacao": "1.6 8V / 1.8 20V Aspirado e Turbo",
+          "combustivel": "Gasolina",
+          "ano_inicio": 1999,
+          "ano_fim": 2006,
+          "notas_especiais": "Plataforma Audi A3 8L."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Fox / SpaceFox / CrossFox",
+          "versao": "Plus / Route / Prime / Extreme",
+          "motorizacao": "1.0 8V / 1.6 8V com ar-condicionado",
+          "combustivel": "Flex",
+          "ano_inicio": 2003,
+          "ano_fim": 2014,
+          "notas_especiais": "Ventoinha principal do radiador."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Polo",
+          "versao": "Hatch / Sedan",
+          "motorizacao": "1.6 8V / 2.0 8V",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2002,
+          "ano_fim": 2014,
+          "notas_especiais": "Polo 9N com ar condicionado."
+        }
+      ],
+      "termos_seo": [
+        "eletroventilador ventoinha golf g4 audi a3 fox polo bora mq0144",
+        "motor ventoinha radiador vw golf 1.6 2.0 1.8t 345mm 7 pas",
+        "eletroventilador ar condicionado audi a3 1.8t 1j0959455f",
+        "ventoinha do radiador spacefox crossfox polo multiqualita mq0144"
+      ],
+      "diferenciais_competitivos": [
+        "Hélice balanceada com peso de calibração que impede vibrações e ruídos na cabine",
+        "Motor elétrico com rolamentos blindados resistentes a altas temperaturas",
+        "Conector padrão original 3 vias: instalação rápida sem cortes ou adaptações no chicote",
+        "Garante o arrefecimento eficiente do motor mesmo em trânsito severo com ar condicionado ligado"
+      ],
+      "alertas_compatibilidade": [
+        "Verifique o diâmetro da hélice: este modelo é o grande de 345mm (o modelo auxiliar menor mede 290mm).",
+        "Não compatível com Golf TSI MK7 (2014 em diante)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 28
+      }
+    },
+    {
+      "id": 10,
+      "sku_master": "SKU-010-MOP-68203986AA",
+      "nome_comercial_base": "Suporte e Modulo de Fixacao Painel Original Mopar Jeep Renegade Compass Fiat Toro 68203986AA",
+      "marca_fabricante": "Fiat / Mopar",
+      "codigo_fabricante": "68203986AA",
+      "codigos_oem": [
+        "68203986AA",
+        "68203986AB",
+        "52059432"
+      ],
+      "codigos_cruzados": [
+        "Mopar 68203986AA",
+        "Chrysler 68203986AA"
+      ],
+      "categoria_nivel_1": "Carroceria e Estrutural",
+      "categoria_nivel_2": "Suportes de Painel e Acabamentos",
+      "posicao_instalacao": "Interior / Painel Frontal / Console Central",
+      "quantidade_estoque": 1,
+      "preco_venda": 439.9,
+      "comissao_10_pct": 43.99,
+      "garantia_meses": 12,
+      "especificacoes_tecnicas": {
+        "material": "Aço estrutural estampado de alta resistência com tratamento anticorrosivo eletroforético e buchas de polímero",
+        "pontos_fixacao": "Furação e roscas originais de fábrica para ancoragem no chassi estrutural do tablier",
+        "peso_gramas": 650,
+        "dimensoes_aprox_cm": "24 x 16 x 8",
+        "padrao_fabricacao": "Padrão Genuíno Mopar Stellantis"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Jeep",
+          "veiculo_modelo": "Renegade",
+          "versao": "Sport / Longitude / Limited / Trailhawk / Night Eagle",
+          "motorizacao": "1.8 Flex / 2.0 Turbo Diesel 4x4 / 1.3 Turbo 270",
+          "combustivel": "Flex / Diesel",
+          "ano_inicio": 2015,
+          "ano_fim": 2023,
+          "notas_especiais": "Suporte estrutural interno do painel."
+        },
+        {
+          "montadora": "Jeep",
+          "veiculo_modelo": "Compass",
+          "versao": "Sport / Longitude / Limited / Trailhawk / Série S",
+          "motorizacao": "2.0 Flex / 2.0 Diesel 4x4 / 1.3 T270",
+          "combustivel": "Flex / Diesel",
+          "ano_inicio": 2017,
+          "ano_fim": 2023,
+          "notas_especiais": "Suporte e fixador de módulo/painel."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Toro",
+          "versao": "Freedom / Volcano / Ranch / Ultra / Endurance",
+          "motorizacao": "1.8 Flex / 2.4 Tigershark / 2.0 Diesel / 1.3 T270",
+          "combustivel": "Flex / Diesel",
+          "ano_inicio": 2016,
+          "ano_fim": 2023,
+          "notas_especiais": "Compatível com todas as versões da plataforma Small Wide."
+        }
+      ],
+      "termos_seo": [
+        "suporte modulo painel jeep renegade compass fiat toro original mopar 68203986aa",
+        "suporte de fixacao painel renegade compass toro mopar genuino",
+        "peca original mopar 68203986aa jeep fiat toro renegade"
+      ],
+      "diferenciais_competitivos": [
+        "Peça 100% Genuína Mopar na embalagem oficial Stellantis",
+        "Alinhamento perfeito e eliminação de ruídos e estalos no painel de instrumentos",
+        "Garantia de fábrica de 1 ano"
+      ],
+      "alertas_compatibilidade": [
+        "Verificar compatibilidade com o número do chassi em caso de versões com blindagem de fábrica."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 31
+      }
+    },
+    {
+      "id": 11,
+      "sku_master": "SKU-011-KLA-DK600053",
+      "nome_comercial_base": "Eletroventilador Radiador Chevrolet Corsa Classic Celta Prisma com Ar Condicionado Klaus Drift DK600053",
+      "marca_fabricante": "Klaüs Drift",
+      "codigo_fabricante": "DK600053",
+      "codigos_oem": [
+        "93337584",
+        "93382148",
+        "93277989"
+      ],
+      "codigos_cruzados": [
+        "Gate V2010053",
+        "Bosch 0130109153",
+        "Valeo 698653",
+        "MultiQualita MQ0153"
+      ],
+      "categoria_nivel_1": "Arrefecimento e Climatização",
+      "categoria_nivel_2": "Eletroventiladores e Motores de Ventoinha",
+      "posicao_instalacao": "Radiador de Água / Defletor Frontal (Cofre do Motor)",
+      "quantidade_estoque": 1,
+      "preco_venda": 359.9,
+      "comissao_10_pct": 35.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "potencia_watts": "220W",
+        "diametro_helice_mm": "310 mm",
+        "numero_pas": "6 Pás Curvas Aerodinâmicas",
+        "conector": "2 Pinos com trava rápida",
+        "sentido_fluxo": "Aspirante",
+        "dimensoes_aprox_cm": "33 x 33 x 9",
+        "peso_gramas": 1650,
+        "padrao_fabricacao": "Padrão Original Linha GM"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Corsa Classic / Classic",
+          "versao": "Life / Spirit / Super / VHC / VHCE",
+          "motorizacao": "1.0 8V / 1.6 8V com Ar Condicionado",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2000,
+          "ano_fim": 2016,
+          "notas_especiais": "Modelos equipados com ar condicionado de fábrica."
+        },
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Celta",
+          "versao": "Life / Spirit / Super / LT",
+          "motorizacao": "1.0 8V / 1.4 8V com Ar Condicionado",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2001,
+          "ano_fim": 2015,
+          "notas_especiais": "Ventoinha do radiador com ar condicionado."
+        },
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Prisma",
+          "versao": "Joy / Maxx",
+          "motorizacao": "1.4 8V Econoflex / 1.0 Flex com Ar Condicionado",
+          "combustivel": "Flex",
+          "ano_inicio": 2007,
+          "ano_fim": 2012,
+          "notas_especiais": "Prisma 1ª geração."
+        }
+      ],
+      "termos_seo": [
+        "eletroventilador corsa classic celta prisma com ar condicionado dk600053",
+        "ventoinha radiador chevrolet corsa vhc vhce 1.0 klaus drift",
+        "motor eletroventilador gm classic 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015",
+        "ventoinha ar condicionado celta prisma original drift dk600053 93337584"
+      ],
+      "diferenciais_competitivos": [
+        "Motor elétrico com ímãs permanentes de alta potência e baixa dissipação térmica",
+        "Hélice balanceada com perfil aerodinâmico silencioso",
+        "Encaixe direto nos suportes originais do defletor GM",
+        "Garantia de 6 meses contra defeitos de fabricação"
+      ],
+      "alertas_compatibilidade": [
+        "Não compatível com Novo Corsa (Frente Montana) 2002 a 2012 (utiliza ventoinha maior).",
+        "Não compatível com modelos sem ar condicionado (que utilizam motor de menor potência)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 34
+      }
+    },
+    {
+      "id": 12,
+      "sku_master": "SKU-012-KLA-DK609242",
+      "nome_comercial_base": "Eletroventilador Ventoinha Radiador Chevrolet Classic 1.0 VHCE com Ar Condicionado Klaus Drift DK609242",
+      "marca_fabricante": "Klaüs Drift",
+      "codigo_fabricante": "DK609242",
+      "codigos_oem": [
+        "94722520",
+        "94733311",
+        "94759600"
+      ],
+      "codigos_cruzados": [
+        "Gate V2019242",
+        "Bosch 0130109242",
+        "MultiQualita MQ0242"
+      ],
+      "categoria_nivel_1": "Arrefecimento e Climatização",
+      "categoria_nivel_2": "Eletroventiladores e Motores de Ventoinha",
+      "posicao_instalacao": "Radiador de Água / Defletor Frontal (Cofre do Motor)",
+      "quantidade_estoque": 1,
+      "preco_venda": 539.9,
+      "comissao_10_pct": 53.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "potencia_watts": "240W",
+        "diametro_helice_mm": "315 mm",
+        "numero_pas": "7 Pás",
+        "conector": "2 Pinos com vedação automotiva IP67",
+        "sentido_fluxo": "Aspirante",
+        "dimensoes_aprox_cm": "34 x 34 x 10",
+        "peso_gramas": 1780,
+        "padrao_fabricacao": "Padrão Original Linha GM VHCE"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Classic",
+          "versao": "LS / Advantage",
+          "motorizacao": "1.0 8V VHCE Flexpower com Ar Condicionado",
+          "combustivel": "Flex",
+          "ano_inicio": 2010,
+          "ano_fim": 2016,
+          "notas_especiais": "Exclusivo para os modelos Classic com motor VHCE e ar condicionado."
+        },
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Celta",
+          "versao": "LT / Advantage",
+          "motorizacao": "1.0 8V VHCE com Ar Condicionado",
+          "combustivel": "Flex",
+          "ano_inicio": 2010,
+          "ano_fim": 2015,
+          "notas_especiais": "Celta fase 3 com ar condicionado."
+        }
+      ],
+      "termos_seo": [
+        "eletroventilador ventoinha radiador chevrolet classic 2010 a 2016 dk609242",
+        "ventoinha radiador classic ls 1.0 vhce com ar condicionado original drift",
+        "motor eletroventilador gm 94722520 celta classic klaus drift dk609242"
+      ],
+      "diferenciais_competitivos": [
+        "Motor de alto rendimento elétrico reforçado para ciclos intensos do ar condicionado",
+        "Rolamentos duplos vedados contra poeira e umidade",
+        "Perfeita fixação sem necessidade de furações adicionais",
+        "Garantia nacional de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Verifique o conector: modelo específico para a linha GM 2010 em diante (código OEM 94722520)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 37
+      }
+    },
+    {
+      "id": 13,
+      "sku_master": "SKU-013-KLA-DK60451",
+      "nome_comercial_base": "Eletroventilador Ventoinha Auxiliar Radiador VW Fox Polo Golf Audi A3 Corolla Klaus Drift DK60451",
+      "marca_fabricante": "Klaüs Drift",
+      "codigo_fabricante": "DK60451",
+      "codigos_oem": [
+        "6Q0959455Q",
+        "6Q0959455K",
+        "6X0959455F",
+        "16363-0D040"
+      ],
+      "codigos_cruzados": [
+        "Gate V2010451",
+        "Bosch 0130107290",
+        "MultiQualita MQ0144",
+        "DTA 0451"
+      ],
+      "categoria_nivel_1": "Arrefecimento e Climatização",
+      "categoria_nivel_2": "Eletroventiladores e Motores de Ventoinha",
+      "posicao_instalacao": "Radiador de Água / Defletor Frontal (Lado Direito / Auxiliar)",
+      "quantidade_estoque": 1,
+      "preco_venda": 419.9,
+      "comissao_10_pct": 41.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "potencia_watts": "180W / 80W (2 Velocidades)",
+        "diametro_helice_mm": "290 mm",
+        "numero_pas": "7 Pás Balanceadas",
+        "conector": "2 / 3 Pinos (Terminais de encaixe rápido)",
+        "sentido_fluxo": "Aspirante",
+        "dimensoes_aprox_cm": "31 x 31 x 8.5",
+        "peso_gramas": 1520,
+        "padrao_fabricacao": "Padrão Original Grupo VAG e Toyota"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Fox / SpaceFox / CrossFox",
+          "versao": "City / Plus / Route / Prime",
+          "motorizacao": "1.0 8V / 1.6 8V Flex com Ar Condicionado",
+          "combustivel": "Flex",
+          "ano_inicio": 2003,
+          "ano_fim": 2014,
+          "notas_especiais": "Ventoinha auxiliar do radiador (290mm)."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Polo",
+          "versao": "Hatch / Sedan",
+          "motorizacao": "1.6 8V / 2.0 8V com Ar Condicionado",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2002,
+          "ano_fim": 2014,
+          "notas_especiais": "Ventoinha auxiliar 290mm."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Golf",
+          "versao": "G4 / G4.5",
+          "motorizacao": "1.6 / 2.0 / 1.8T",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 1999,
+          "ano_fim": 2013,
+          "notas_especiais": "Ventoinha auxiliar do radiador."
+        },
+        {
+          "montadora": "Audi",
+          "veiculo_modelo": "A3",
+          "versao": "1.6 / 1.8 / 1.8 Turbo (8L)",
+          "motorizacao": "1.6 / 1.8 / 1.8T",
+          "combustivel": "Gasolina",
+          "ano_inicio": 1999,
+          "ano_fim": 2006,
+          "notas_especiais": "Ventoinha auxiliar ar condicionado."
+        },
+        {
+          "montadora": "Toyota",
+          "veiculo_modelo": "Corolla",
+          "versao": "XLi / XEi / SEG / Fielder",
+          "motorizacao": "1.6 16V / 1.8 16V VVT-i",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2003,
+          "ano_fim": 2008,
+          "notas_especiais": "Motor de ventoinha auxiliar."
+        }
+      ],
+      "termos_seo": [
+        "eletroventilador ventoinha auxiliar fox polo golf audi a3 corolla dk60451",
+        "ventoinha ar condicionado fox polo spacefox 290mm 6q0959455q klaus drift",
+        "motor ventoinha auxiliar radiador toyota corolla 2003 2004 2005 2006 2007 2008"
+      ],
+      "diferenciais_competitivos": [
+        "Baixo consumo elétrico com alto poder de vazão de ar em m3/h",
+        "Construção robusta com tratamento anti-oxidação no rotor",
+        "Garantia de 6 meses Klaüs Drift"
+      ],
+      "alertas_compatibilidade": [
+        "Este modelo possui hélice de 290mm (auxiliar). Não confunda com o modelo principal de 345mm."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 40
+      }
+    },
+    {
+      "id": 14,
+      "sku_master": "SKU-014-AUT-AVL01006",
+      "nome_comercial_base": "Valvula Solenoide VVT de Comando Variavel Hyundai HB20 Creta Kia Cerato Soul 1.0 1.6 16V Authomix AVL01006",
+      "marca_fabricante": "Authomix",
+      "codigo_fabricante": "AVL01006",
+      "codigos_oem": [
+        "24355-03011",
+        "24355-2B700",
+        "24355-04000",
+        "24355-2B600"
+      ],
+      "codigos_cruzados": [
+        "DS 2101",
+        "Gauss GS7006",
+        "Magneti Marelli VVT006",
+        "DPL DPL24355"
+      ],
+      "categoria_nivel_1": "Motor e Componentes Internos",
+      "categoria_nivel_2": "Válvulas Solenoide e Comando Variável (VVT)",
+      "posicao_instalacao": "Cabeçote do Motor / Comando de Válvulas (Admissão / Escape)",
+      "quantidade_estoque": 1,
+      "preco_venda": 349.9,
+      "comissao_10_pct": 34.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "conector": "2 Pinos padrão original Hyundai/Kia",
+        "material": "Corpo em aço usinado de precisão com carretel interno em liga micro-polida e bobina eletromagnética blindada",
+        "filtro": "Micro-tela metálica integrada contra micro-impurezas do óleo do motor",
+        "dimensoes_aprox_cm": "12 x 5 x 4",
+        "peso_gramas": 210,
+        "padrao_fabricacao": "Padrão de Precisão Hidráulica OEM Hyundai/Kia Motors"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Hyundai",
+          "veiculo_modelo": "HB20 / HB20S / HB20X",
+          "versao": "Comfort / Plus / Premium / R-Spec / Diamond",
+          "motorizacao": "1.0 12V 3 Cilindros Kappa / 1.6 16V Gamma DOHC CVVT",
+          "combustivel": "Flex",
+          "ano_inicio": 2012,
+          "ano_fim": 2019,
+          "notas_especiais": "Válvula solenoide do variador de fase do comando de válvulas."
+        },
+        {
+          "montadora": "Hyundai",
+          "veiculo_modelo": "Creta",
+          "versao": "Attitude / Pulse / Prestige",
+          "motorizacao": "1.6 16V Gamma DOHC CVVT",
+          "combustivel": "Flex",
+          "ano_inicio": 2016,
+          "ano_fim": 2021,
+          "notas_especiais": "Motor 1.6 Gamma CVVT."
+        },
+        {
+          "montadora": "Kia",
+          "veiculo_modelo": "Cerato",
+          "versao": "EX / SX",
+          "motorizacao": "1.6 16V Gamma CVVT",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2009,
+          "ano_fim": 2019,
+          "notas_especiais": "Comando de válvulas variável."
+        },
+        {
+          "montadora": "Kia",
+          "veiculo_modelo": "Soul",
+          "versao": "EX",
+          "motorizacao": "1.6 16V Gamma CVVT",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2010,
+          "ano_fim": 2019,
+          "notas_especiais": "Motor 1.6 CVVT."
+        }
+      ],
+      "termos_seo": [
+        "valvula solenoide vvt comando variavel hb20 creta cerato 1.6 16v authomix avl01006",
+        "valvula vvt hyundai hb20 1.0 1.6 2435503011 243552b700",
+        "solenoide de comando valvula kia cerato soul 1.6 authomix original",
+        "valvula variador de fase comando admissao hb20 creta flex"
+      ],
+      "diferenciais_competitivos": [
+        "Restaura a potência original, o torque em baixas rotações e o consumo correto de combustível",
+        "Elimina códigos de erro de sincronismo de comando de válvulas (ex: P0011, P0014)",
+        "Tela filtrante ultra-fina que impede o travamento do êmbolo por resíduos de óleo",
+        "Garantia de 6 meses com qualidade Authomix"
+      ],
+      "alertas_compatibilidade": [
+        "Recomenda-se realizar a troca de óleo e filtro do motor junto com a instalação da válvula VVT nova.",
+        "Não compatível com motores Hyundai 2.0 Nu (Creta/ix35 2.0)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 43
+      }
+    },
+    {
+      "id": 15,
+      "sku_master": "SKU-015-BOS-0221504045",
+      "nome_comercial_base": "Bobina de Ignicao Bosch Fiat Toro Argo Cronos Jeep Renegade 1.8 16V E.torQ 0221504045",
+      "marca_fabricante": "Bosch",
+      "codigo_fabricante": "0221504045",
+      "codigos_oem": [
+        "55273432",
+        "55246721",
+        "68334460AA"
+      ],
+      "codigos_cruzados": [
+        "Bosch 0 221 504 045",
+        "Mopar 55273432",
+        "Magneti Marelli BI0080MM",
+        "Delphi GN10451",
+        "NGK U5045"
+      ],
+      "categoria_nivel_1": "Injeção Eletrônica e Ignição",
+      "categoria_nivel_2": "Bobinas de Ignição e Cabos",
+      "posicao_instalacao": "Cabeçote do Motor / Encaixe Direto na Vela (Coil-on-Plug individual)",
+      "quantidade_estoque": 1,
+      "preco_venda": 289.9,
+      "comissao_10_pct": 28.99,
+      "garantia_meses": 12,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "tensao_secundario_kv": "35 kV (Alta energia de centelha)",
+        "tipo_bobina": "Individual tipo caneta / lápis (Coil-on-Plug - 1 bobina por cilindro)",
+        "conector": "3 Pinos (Alimentação, Pulso do Módulo e Terra)",
+        "material": "Corpo moldado em resina epóxi de alta rigidez dielétrica e cachimbo em silicone isolante térmico",
+        "dimensoes_aprox_cm": "18 x 7 x 4",
+        "peso_gramas": 240,
+        "padrao_fabricacao": "Padrão Genuíno Bosch / Stellantis"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Toro",
+          "versao": "Freedom / Opening Edition / Endurance",
+          "motorizacao": "1.8 16V E.torQ EVO Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2016,
+          "ano_fim": 2022,
+          "notas_especiais": "Bobina individual direta na vela (necessita 4 unidades no jogo completo)."
+        },
+        {
+          "montadora": "Jeep",
+          "veiculo_modelo": "Renegade",
+          "versao": "Sport / Longitude / Limited / Night Eagle",
+          "motorizacao": "1.8 16V E.torQ EVO Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2015,
+          "ano_fim": 2021,
+          "notas_especiais": "Motor 1.8 16V Flex."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Argo",
+          "versao": "Precision / HGT / Trekking",
+          "motorizacao": "1.8 16V E.torQ EVO Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2017,
+          "ano_fim": 2021,
+          "notas_especiais": "Motor 1.8 E.torQ."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Cronos",
+          "versao": "Precision / HGT",
+          "motorizacao": "1.8 16V E.torQ EVO Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2018,
+          "ano_fim": 2021,
+          "notas_especiais": "Motor 1.8 E.torQ."
+        }
+      ],
+      "termos_seo": [
+        "bobina ignicao bosch fiat toro renegade argo cronos 1.8 flex 0221504045",
+        "bobina de ignicao individual toro 1.8 16v etorq original bosch 55273432",
+        "bobina renegade 1.8 flex bosch 0 221 504 045 genuina",
+        "bobina caneta fiat argo cronos hgt 1.8 16v bosch novo"
+      ],
+      "diferenciais_competitivos": [
+        "Tecnologia Bosch Original de alta tensão que garante queima 100% completa do combustível",
+        "Elimina falhas de ignição (misfire), perda de potência em retomadas e luz de injeção acesa",
+        "Isolação reforçada que impede fuga de corrente mesmo em temperaturas superiores a 140°C",
+        "Garantia oficial Bosch de 12 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não compatível com motores 1.0 e 1.3 Firefly.",
+        "Não compatível com motores 1.6 e 1.8 E.torQ de 1ª geração (2010 a 2015 que utilizam bobina única de 4 saídas com cabos de vela)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 46
+      }
+    },
+    {
+      "id": 16,
+      "sku_master": "SKU-016-KOS-1272020",
+      "nome_comercial_base": "Chave do Limpador de Parabrisa Traseiro e Dianteiro com Desembacador Kostal VW Fox CrossFox SpaceFox Gol G5 G6 1272020",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1272020",
+      "codigos_oem": [
+        "5Z0953503B",
+        "5Z0953503",
+        "5Z0953503A"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12720",
+        "Diretec DTC1272",
+        "Ospina 042272"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção (Alavanca Lado Direito)",
+      "quantidade_estoque": 1,
+      "preco_venda": 245.9,
+      "comissao_10_pct": 24.59,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "conector": "Conector original VW de encaixe na carcaça da chave de coluna",
+        "funcoes_integradas": [
+          "Limpador dianteiro com 2 velocidades e temporizador ajustável",
+          "Lavador do para-brisa dianteiro (esguicho)",
+          "Limpador do vidro traseiro",
+          "Lavador do vidro traseiro",
+          "Interruptor do desembaçador do vidro traseiro"
+        ],
+        "material": "Termoplástico de alta resistência e contatos em liga de prata",
+        "dimensoes_aprox_cm": "20 x 8 x 6",
+        "peso_gramas": 210,
+        "padrao_fabricacao": "Padrão Original Kostal / Linha de Montagem VW"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Fox / CrossFox / SpaceFox / SpaceCross",
+          "versao": "City / Plus / Route / Prime / Highline",
+          "motorizacao": "1.0 8V / 1.6 8V Flex",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2003,
+          "ano_fim": 2014,
+          "notas_especiais": "Alavanca direita com limpador traseiro e botão do desembaçador."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Gol",
+          "versao": "Trend / Power / Rallye (G5 e G6)",
+          "motorizacao": "1.0 8V / 1.6 8V",
+          "combustivel": "Flex",
+          "ano_inicio": 2009,
+          "ano_fim": 2016,
+          "notas_especiais": "Versões com limpador traseiro e desembaçador."
+        }
+      ],
+      "termos_seo": [
+        "chave do limpador parabrisa fox crossfox spacefox gol g5 g6 kostal 1272020",
+        "alavanca limpador traseiro e dianteiro vw fox com desembacador original 5z0953503b",
+        "chave limpador gol g5 g6 kostal 1272020 original"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal: encaixe milimétrico na coluna de direção sem folgas ou estalos",
+        "Contatos resistentes à umidade com acionamento suave e silencioso",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em modelos sem limpador traseiro.",
+        "Não serve em Fox / Gol equipados com computador de bordo I-System na ponta da alavanca (Trip)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 49
+      }
+    },
+    {
+      "id": 17,
+      "sku_master": "SKU-017-KOS-1819452",
+      "nome_comercial_base": "Chave de Seta VW Gol Parati Voyage Saveiro Quadrado Santana Quantum Kostal 1819452",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1819452",
+      "codigos_oem": [
+        "32195351305",
+        "321953513B",
+        "ZBA953513"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12080",
+        "Diretec DTC1080",
+        "Ospina 042080"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção (Lado Esquerdo)",
+      "quantidade_estoque": 1,
+      "preco_venda": 189.9,
+      "comissao_10_pct": 18.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta direita e esquerda",
+          "Retorno automático do pisca ao desesterçar o volante",
+          "Comutação de farol alto e farol baixo",
+          "Lampejador de farol (relâmpago)"
+        ],
+        "conector": "Terminais espada padrão chicote original VW clássico",
+        "dimensoes_aprox_cm": "19 x 7 x 6",
+        "peso_gramas": 190,
+        "padrao_fabricacao": "Padrão Original Kostal Linha Clássicos VW"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Gol (Quadrado)",
+          "versao": "CL / GL / GTS / GTI / Star / Copa / 1000",
+          "motorizacao": "1.0 / 1.6 / 1.8 / 2.0 AP e CHT",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1988,
+          "ano_fim": 1996,
+          "notas_especiais": "Painel satélite e painel convencional com chave moderna."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Voyage (Quadrado)",
+          "versao": "CL / GL / GLS / Sport",
+          "motorizacao": "1.6 / 1.8 AP",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1988,
+          "ano_fim": 1995,
+          "notas_especiais": "Modelos quadrados."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Parati (Quadrada)",
+          "versao": "CL / GL / GLS / Surf / Club",
+          "motorizacao": "1.6 / 1.8 AP",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1988,
+          "ano_fim": 1996,
+          "notas_especiais": "Parati quadrada."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Saveiro (Quadrada)",
+          "versao": "CL / GL / Sunset / Summer",
+          "motorizacao": "1.6 / 1.8 AP",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1988,
+          "ano_fim": 1997,
+          "notas_especiais": "Saveiro quadrada."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Santana / Quantum",
+          "versao": "CS / CD / CG / GLS / GL",
+          "motorizacao": "1.8 / 2.0 AP",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1984,
+          "ano_fim": 1992,
+          "notas_especiais": "Santana 1ª geração."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta gol quadrado cl gl gts gti parati voyage saveiro kostal 1819452",
+        "chave de seta santana quantum 1984 a 1992 original kostal 32195351305",
+        "alavanca de seta gol quadrado 1000 1993 1994 1995 1996 kostal novo",
+        "chave de seta e farol alto baixo vw quadrado linha ap"
+      ],
+      "diferenciais_competitivos": [
+        "Item indispensável em restaurações de clássicos e colecionadores (padrão placa preta)",
+        "Elimina folgas no retorno da seta e falhas de mau contato no farol alto",
+        "Produto novo Original Kostal"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em Fusca, Brasília e Variant (utilizam chave com carcaça redonda de ferro)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 52
+      }
+    },
+    {
+      "id": 18,
+      "sku_master": "SKU-018-KOS-1473615",
+      "nome_comercial_base": "Chave de Seta Fiat Palio Siena Strada Weekend com Trip e Desembacador Kostal 1473615",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1473615",
+      "codigos_oem": [
+        "100185357",
+        "100190819",
+        "100171245"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12615",
+        "Diretec DTC1215",
+        "Ospina 042615"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção (Conjunto Integrado Duplo)",
+      "quantidade_estoque": 1,
+      "preco_venda": 579.9,
+      "comissao_10_pct": 57.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta e farol alto/baixo com Follow Me Home",
+          "Limpador dianteiro com temporizador",
+          "Limpador e lavador do vidro traseiro",
+          "Interruptor do desembaçador térmico do vidro traseiro",
+          "Botão de comando do computador de bordo TRIP na ponta da alavanca",
+          "Interruptor de emergência (pisca-alerta integrado)"
+        ],
+        "material": "Carcaça em poliamida 6.6 com reforço de fibra e contatos em prata nobre",
+        "dimensoes_aprox_cm": "26 x 15 x 10",
+        "peso_gramas": 440,
+        "padrao_fabricacao": "Original Kostal Linha Fiat"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio",
+          "versao": "ELX / Attractive / Essence / Sporting (G3 e G4)",
+          "motorizacao": "1.0 / 1.4 / 1.8 8V Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2008,
+          "ano_fim": 2012,
+          "notas_especiais": "Modelos com computador de bordo TRIP e desembaçador traseiro."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio Weekend",
+          "versao": "ELX / Trekking / Adventure Locker",
+          "motorizacao": "1.4 / 1.8 8V Flex / 1.6 16V E.torQ",
+          "combustivel": "Flex",
+          "ano_inicio": 2009,
+          "ano_fim": 2012,
+          "notas_especiais": "Com limpador traseiro e TRIP."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Siena",
+          "versao": "EL / ELX / HLX / Tetrafuel",
+          "motorizacao": "1.0 / 1.4 / 1.8",
+          "combustivel": "Flex / GNV",
+          "ano_inicio": 2008,
+          "ano_fim": 2012,
+          "notas_especiais": "Siena com computador de bordo."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Strada",
+          "versao": "Trekking / Adventure Locker / Working",
+          "motorizacao": "1.4 / 1.8 8V Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2009,
+          "ano_fim": 2013,
+          "notas_especiais": "Com função TRIP."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta palio siena strada weekend 2008 a 2012 com trip e desembacador kostal 1473615",
+        "comando coluna palio weekend adventure locker com computador de bordo trip original kostal",
+        "chave de seta fiat 100185357 100190819 kostal 1473615"
+      ],
+      "diferenciais_competitivos": [
+        "Chave completa com função TRIP: restaura a navegação pelo computador de bordo do painel",
+        "Original Kostal de reposição oficial",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em veículos com bolsa de airbag integrada no corpo da chave sem o devido transplante da cinta."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 55
+      }
+    },
+    {
+      "id": 19,
+      "sku_master": "SKU-019-KOS-1405200",
+      "nome_comercial_base": "Chave de Seta Fiat Uno Mille Elba com Limpador Traseiro Kostal 1405200",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1405200",
+      "codigos_oem": [
+        "182547180",
+        "7521876",
+        "7521877"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12090",
+        "Diretec DTC1090",
+        "Ospina 042090"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção (Conjunto Integrado)",
+      "quantidade_estoque": 1,
+      "preco_venda": 389.9,
+      "comissao_10_pct": 38.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Comutador de farol alto, baixo e lampejador",
+          "Limpador do para-brisa dianteiro com 2 velocidades e temporizador",
+          "Limpador e lavador do vidro traseiro",
+          "Interruptor de emergência (pisca-alerta na coluna)"
+        ],
+        "material": "Polímero de engenharia com terminais em latão estanhado",
+        "dimensoes_aprox_cm": "24 x 14 x 9",
+        "peso_gramas": 360,
+        "padrao_fabricacao": "Original Kostal Linha Fiat Clássica"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Uno / Uno Mille",
+          "versao": "S / CS / SX / ELX / EP / EX / Smart / Eletronic",
+          "motorizacao": "1.0 / 1.3 / 1.5 / 1.6 Fiasa e Sevel",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1991,
+          "ano_fim": 2001,
+          "notas_especiais": "Modelos de painel satélite ou convencional com limpador de vidro traseiro."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Elba",
+          "versao": "CS / CSL / Top / Innocenti",
+          "motorizacao": "1.5 / 1.6",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1991,
+          "ano_fim": 1996,
+          "notas_especiais": "Com limpador traseiro."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta fiat uno mille elba 1991 a 2001 com limpador traseiro kostal 1405200",
+        "comando de coluna uno mille ep elx 1.5 com limpador traseiro original 182547180",
+        "chave de seta uno quadrado com limpador traseiro kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal: acabamento idêntico ao de fábrica sem rebarbas plásticas",
+        "Garante o acionamento perfeito do motor do limpador traseiro e da bomba do esguicho",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em Uno sem limpador traseiro (utilizar Kostal 1405100 ou 1450065).",
+        "Não serve em Novo Uno (Vivace / Way 2010 em diante)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 58
+      }
+    },
+    {
+      "id": 20,
+      "sku_master": "SKU-020-KOS-1450065",
+      "nome_comercial_base": "Chave de Seta Fiat Uno Mille Fire Economy Fiorino sem Limpador Traseiro Kostal 1450065",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1450065",
+      "codigos_oem": [
+        "119142560",
+        "7082898",
+        "46535384"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12095",
+        "Diretec DTC1095",
+        "Ospina 042095"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção (Conjunto Integrado)",
+      "quantidade_estoque": 1,
+      "preco_venda": 389.9,
+      "comissao_10_pct": 38.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Farol alto, farol baixo e lampejador",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Botão de pisca-alerta (emergência) no topo da carcaça",
+          "SEM comando de limpador traseiro"
+        ],
+        "material": "Termoplástico de alta durabilidade com terminais reforçados",
+        "dimensoes_aprox_cm": "24 x 14 x 9",
+        "peso_gramas": 350,
+        "padrao_fabricacao": "Original Kostal Linha Fiat Fire"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Uno / Uno Mille",
+          "versao": "Fire / Fire Flex / Economy / Way",
+          "motorizacao": "1.0 8V Fire Flex",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2002,
+          "ano_fim": 2013,
+          "notas_especiais": "Modelos sem limpador traseiro (Uno Mille Fire tradicional 'quadrado')."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Fiorino",
+          "versao": "Furgão / Pick-up / Fire",
+          "motorizacao": "1.3 8V Fire / 1.5 Fiasa",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 1996,
+          "ano_fim": 2013,
+          "notas_especiais": "Fiorino furgão sem limpador traseiro."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta uno mille fire economy fiorino 2002 a 2013 kostal 1450065",
+        "comando de coluna fiat uno fire sem limpador traseiro original 119142560",
+        "chave seta fiorino furgao fire 1.3 kostal 1450065 novo",
+        "chave de seta uno way economy 2009 2010 2011 2012 2013 kostal"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal líder absoluta em chaves de coluna para a frota Fiat",
+        "Mecanismo do pisca-alerta reforçado que não trava nem solta o botão",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em versões que possuem limpador e lavador no vidro traseiro."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 61
+      }
+    },
+    {
+      "id": 21,
+      "sku_master": "SKU-021-KOS-1450025",
+      "nome_comercial_base": "Chave de Seta Fiat Palio Siena Strada sem Limpador Traseiro Kostal 1450025",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1450025",
+      "codigos_oem": [
+        "182601780",
+        "182743880",
+        "735272635"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12025",
+        "Diretec DTC1025",
+        "Ospina 042025"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 347.9,
+      "comissao_10_pct": 34.79,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Comutação farol alto/baixo e lampejo",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Pisca-alerta integrado",
+          "SEM limpador traseiro"
+        ],
+        "dimensoes_aprox_cm": "25 x 14 x 9",
+        "peso_gramas": 370,
+        "padrao_fabricacao": "Padrão Original Kostal Fiat"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio",
+          "versao": "Young / ED / EDX / EL / Fire (G1 e G2)",
+          "motorizacao": "1.0 / 1.3 / 1.5 / 1.6 8V e 16V",
+          "combustivel": "Gasolina / Álcool / Flex",
+          "ano_inicio": 1996,
+          "ano_fim": 2006,
+          "notas_especiais": "Palio sem limpador traseiro."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Siena",
+          "versao": "EL / HL / ELX / Fire (G1 e G2)",
+          "motorizacao": "1.0 / 1.3 / 1.5 / 1.6",
+          "combustivel": "Gasolina / Álcool / Flex",
+          "ano_inicio": 1997,
+          "ano_fim": 2006,
+          "notas_especiais": "Siena sedan (sem limpador traseiro)."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Strada",
+          "versao": "Working / Trekking / Fire",
+          "motorizacao": "1.3 / 1.5 / 1.6 / 1.8",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 1998,
+          "ano_fim": 2006,
+          "notas_especiais": "Strada pick-up."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta palio siena strada 1996 a 2006 sem limpador traseiro kostal 1450025",
+        "comando de coluna palio young siena strada working original 182601780",
+        "chave de seta fiat siena 1.0 1.3 1.6 fire g1 g2 kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal de alta durabilidade",
+        "Plugue de encaixe perfeito sem folgas",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em modelos com limpador traseiro."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 64
+      }
+    },
+    {
+      "id": 22,
+      "sku_master": "SKU-022-KOS-1405100",
+      "nome_comercial_base": "Chave de Seta Fiat Uno Elba Premio Fiorino sem Limpador Traseiro Kostal 1405100",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1405100",
+      "codigos_oem": [
+        "182547080",
+        "7521875"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12091",
+        "Diretec DTC1091",
+        "Ospina 042091"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 409.9,
+      "comissao_10_pct": 40.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Farol alto/baixo e lampejador",
+          "Limpador dianteiro com 2 velocidades e temporizador",
+          "Pisca-alerta na coluna",
+          "SEM limpador traseiro"
+        ],
+        "dimensoes_aprox_cm": "24 x 14 x 9",
+        "peso_gramas": 345,
+        "padrao_fabricacao": "Padrão Original Kostal Fiat"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Uno / Uno Mille",
+          "versao": "S / CS / SX / Brio / Eletronic / ELX",
+          "motorizacao": "1.0 / 1.3 / 1.5 Fiasa",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1994,
+          "ano_fim": 2004,
+          "notas_especiais": "Uno sem limpador traseiro."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Prêmio",
+          "versao": "CS / CSL / S / SL",
+          "motorizacao": "1.3 / 1.5 / 1.6",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1994,
+          "ano_fim": 1996,
+          "notas_especiais": "Prêmio sedan."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Fiorino",
+          "versao": "Furgão / Pick-up / LX / Trekking",
+          "motorizacao": "1.5 / 1.6 Fiasa e Sevel",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1994,
+          "ano_fim": 2004,
+          "notas_especiais": "Fiorino sem limpador traseiro."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta uno premio fiorino 1994 a 2004 sem limpador traseiro kostal 1405100",
+        "comando de coluna fiat uno mille eletronic elx sem limpador traseiro 182547080",
+        "chave de seta fiorino furgão fiasa kostal 1405100"
+      ],
+      "diferenciais_competitivos": [
+        "Peça nova Original Kostal",
+        "Retorno de seta com mola temperada que não escapa",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em veículos com limpador traseiro."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 67
+      }
+    },
+    {
+      "id": 23,
+      "sku_master": "SKU-023-KOS-1473405",
+      "nome_comercial_base": "Chave de Seta Fiat Doblo Idea Palio Weekend com Trip e Limpador Traseiro Kostal 1473405",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1473405",
+      "codigos_oem": [
+        "100164287",
+        "735365520",
+        "735410425"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12405",
+        "Diretec DTC1205",
+        "Ospina 042405"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 699.9,
+      "comissao_10_pct": 69.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta e faróis alto/baixo com Follow Me Home",
+          "Limpador dianteiro com temporizador",
+          "Limpador e lavador do vidro traseiro",
+          "Função de computador de bordo TRIP na alavanca",
+          "Pisca-alerta na carcaça"
+        ],
+        "dimensoes_aprox_cm": "26 x 15 x 10",
+        "peso_gramas": 430,
+        "padrao_fabricacao": "Padrão Original Kostal Linha Fiat"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Doblò",
+          "versao": "EX / ELX / HLX / Adventure / Cargo",
+          "motorizacao": "1.3 16V / 1.4 8V Fire / 1.8 8V Powertrain / 1.8 16V E.torQ",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2002,
+          "ano_fim": 2016,
+          "notas_especiais": "Doblò com limpador traseiro e função TRIP."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Idea",
+          "versao": "ELX / HLX / Adventure / Attractive / Essence",
+          "motorizacao": "1.4 8V / 1.8 8V / 1.6 16V / 1.8 16V",
+          "combustivel": "Flex",
+          "ano_inicio": 2006,
+          "ano_fim": 2016,
+          "notas_especiais": "Com limpador traseiro e computador de bordo."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio / Palio Weekend",
+          "versao": "HLX / ELX / Adventure (G3)",
+          "motorizacao": "1.4 8V / 1.8 8V Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2004,
+          "ano_fim": 2014,
+          "notas_especiais": "Palio G3 com TRIP e limpador traseiro."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta fiat doblo idea palio weekend com trip e limpador traseiro kostal 1473405",
+        "comando de coluna doblo adventure locker com computador de bordo original 100164287",
+        "chave de seta fiat idea elx hlx adventure kostal 1473405 novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal: controla perfeitamente o computador de bordo e limpadores",
+        "Contatos reforçados para veículos utilitários e de uso severo",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em modelos sem limpador traseiro."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 70
+      }
+    },
+    {
+      "id": 24,
+      "sku_master": "SKU-024-KOS-1473500",
+      "nome_comercial_base": "Chave de Seta Fiat Doblo Palio Siena Strada sem Limpador Traseiro Kostal 1473500",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1473500",
+      "codigos_oem": [
+        "100164286",
+        "735365519",
+        "735410424"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12500",
+        "Diretec DTC1200",
+        "Ospina 042500"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 569.9,
+      "comissao_10_pct": 56.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Farol alto/baixo e lampejo",
+          "Limpador de para-brisa dianteiro",
+          "Pisca-alerta integrado",
+          "SEM limpador traseiro e SEM função TRIP"
+        ],
+        "dimensoes_aprox_cm": "25 x 14 x 9",
+        "peso_gramas": 380,
+        "padrao_fabricacao": "Padrão Original Kostal Linha Fiat"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Doblò",
+          "versao": "Cargo / EX",
+          "motorizacao": "1.3 / 1.4 / 1.8",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2002,
+          "ano_fim": 2016,
+          "notas_especiais": "Doblò Cargo sem limpador traseiro."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio / Siena",
+          "versao": "Fire / ELX (G3)",
+          "motorizacao": "1.0 / 1.4 / 1.8",
+          "combustivel": "Flex",
+          "ano_inicio": 2004,
+          "ano_fim": 2014,
+          "notas_especiais": "Sem limpador traseiro e sem TRIP."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Strada",
+          "versao": "Working / Fire / Trekking (G3)",
+          "motorizacao": "1.4 / 1.8 Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2004,
+          "ano_fim": 2012,
+          "notas_especiais": "Strada G3 sem computador de bordo."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta fiat doblo cargo palio siena strada g3 sem limpador traseiro kostal 1473500",
+        "comando de coluna fiat strada working fire 2005 2006 2007 2008 2009 2010 2011 2012 100164286",
+        "chave seta fiat doblo furgão sem limpador traseiro kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal com alta robustez elétrica",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em modelos que utilizam computador de bordo TRIP na alavanca."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 73
+      }
+    },
+    {
+      "id": 25,
+      "sku_master": "SKU-025-KOS-1510640",
+      "nome_comercial_base": "Chave de Seta Ford Ka 1997 1998 1999 com Limpador Traseiro Kostal 1510640",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1510640",
+      "codigos_oem": [
+        "97KB13335BA",
+        "97KB-13335-BA",
+        "1028389"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12640",
+        "Diretec DTC1640",
+        "Ospina 042640"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 359.9,
+      "comissao_10_pct": 35.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Comutação de farol alto/baixo e lampejo",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Limpador e lavador do vidro traseiro",
+          "Buzina na alavanca e pisca-alerta integrado"
+        ],
+        "dimensoes_aprox_cm": "25 x 14 x 9",
+        "peso_gramas": 380,
+        "padrao_fabricacao": "Padrão Original Ford Kostal"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Ford",
+          "veiculo_modelo": "Ka",
+          "versao": "CLX / Street / Image / Techno",
+          "motorizacao": "1.0 Endura / 1.3 Endura / 1.0 Zetec Rocam",
+          "combustivel": "Gasolina",
+          "ano_inicio": 1997,
+          "ano_fim": 1999,
+          "notas_especiais": "Ford Ka 1ª geração 'Joaninha' com limpador traseiro."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta ford ka 1997 1998 1999 com limpador traseiro kostal 1510640",
+        "comando de coluna ford ka endura 1.0 1.3 com limpador traseiro 97kb13335ba",
+        "chave seta ka antigo joaninha kostal original novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal para restauração do Ford Ka 1ª geração",
+        "Contatos da buzina e pisca-alerta 100% novos e precisos",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em Ford Ka ano 2000 em diante (utiliza conector e chicote da linha Kostal 1510520)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 76
+      }
+    },
+    {
+      "id": 26,
+      "sku_master": "SKU-026-KOS-1510641",
+      "nome_comercial_base": "Chave de Seta Ford Ka 1997 1998 1999 sem Limpador Traseiro Kostal 1510641",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1510641",
+      "codigos_oem": [
+        "97KB13335AA",
+        "97KB-13335-AA",
+        "1028388"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12641",
+        "Diretec DTC1641",
+        "Ospina 042641"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 339.9,
+      "comissao_10_pct": 33.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Farol alto/baixo e lampejo",
+          "Limpador dianteiro com temporizador",
+          "Buzina na alavanca e pisca-alerta",
+          "SEM limpador traseiro"
+        ],
+        "dimensoes_aprox_cm": "25 x 14 x 9",
+        "peso_gramas": 365,
+        "padrao_fabricacao": "Padrão Original Ford Kostal"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Ford",
+          "veiculo_modelo": "Ka",
+          "versao": "Standard / Básico",
+          "motorizacao": "1.0 Endura / 1.3 Endura",
+          "combustivel": "Gasolina",
+          "ano_inicio": 1997,
+          "ano_fim": 1999,
+          "notas_especiais": "Ford Ka 1ª geração sem limpador traseiro."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta ford ka 1997 a 1999 sem limpador traseiro kostal 1510641",
+        "comando de coluna ford ka 1.0 endura 97kb13335aa kostal original",
+        "chave seta ka joaninha basico 1998 kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal para Ford Ka clássico",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em modelos com limpador traseiro."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 79
+      }
+    },
+    {
+      "id": 27,
+      "sku_master": "SKU-027-KOS-1510521",
+      "nome_comercial_base": "Chave de Seta Ford Fiesta Sedan Street Courier Ka sem Limpador Traseiro Kostal 1510521",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1510521",
+      "codigos_oem": [
+        "96FB13335AB",
+        "96FB-13335-AB",
+        "XS6113335AA"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12521",
+        "Diretec DTC1521",
+        "Ospina 042521"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 369.9,
+      "comissao_10_pct": 36.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Comutador de farol alto/baixo e lampejo",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Buzina na ponta da alavanca esquerda",
+          "Interruptor de emergência (pisca-alerta na carcaça)",
+          "SEM limpador traseiro"
+        ],
+        "dimensoes_aprox_cm": "25 x 14 x 9",
+        "peso_gramas": 375,
+        "padrao_fabricacao": "Padrão Original Ford Kostal"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Ford",
+          "veiculo_modelo": "Fiesta Sedan / Fiesta Street",
+          "versao": "Street / Class / GL / Personnalité",
+          "motorizacao": "1.0 / 1.6 Zetec Rocam / 1.0 Endura",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 1996,
+          "ano_fim": 2006,
+          "notas_especiais": "Fiesta Sedan e Hatch sem limpador traseiro."
+        },
+        {
+          "montadora": "Ford",
+          "veiculo_modelo": "Courier",
+          "versao": "Standard / XL / Si / L / Van",
+          "motorizacao": "1.3 Endura / 1.4 16V Zetec / 1.6 8V Zetec Rocam",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 1997,
+          "ano_fim": 2013,
+          "notas_especiais": "Pick-up Courier sem limpador traseiro."
+        },
+        {
+          "montadora": "Ford",
+          "veiculo_modelo": "Ka",
+          "versao": "GL / Image / Action / MP3 / Tecno",
+          "motorizacao": "1.0 / 1.6 Zetec Rocam",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2000,
+          "ano_fim": 2014,
+          "notas_especiais": "Ka sem limpador traseiro."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta ford courier fiesta sedan street ka sem limpador traseiro kostal 1510521",
+        "comando de coluna ford courier 1.6 zetec rocam 1997 a 2013 96fb13335ab",
+        "chave seta fiesta street sedan ka 1.0 flex kostal original novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal: fornece acionamento preciso da buzina e pisca-alerta",
+        "Material ultra-resistente ao calor do painel sob o sol",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em Fiesta com limpador traseiro (utilizar Kostal 1510520)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 82
+      }
+    },
+    {
+      "id": 28,
+      "sku_master": "SKU-028-KOS-1510520",
+      "nome_comercial_base": "Chave de Seta Ford Fiesta Hatch Street Ka com Limpador Traseiro e Buzina Kostal 1510520",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1510520",
+      "codigos_oem": [
+        "96FB13335BB",
+        "96FB-13335-BB",
+        "XS6113335BA"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12520",
+        "Diretec DTC1520",
+        "Ospina 042520"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 385.9,
+      "comissao_10_pct": 38.59,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Farol alto/baixo e lampejo",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Limpador e lavador do vidro traseiro",
+          "Buzina na ponta da alavanca esquerda",
+          "Interruptor de emergência (pisca-alerta na carcaça)"
+        ],
+        "dimensoes_aprox_cm": "25 x 14 x 9",
+        "peso_gramas": 385,
+        "padrao_fabricacao": "Padrão Original Ford Kostal"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Ford",
+          "veiculo_modelo": "Fiesta Hatch / Fiesta Street",
+          "versao": "CLX / GL / Class / Sport / Street",
+          "motorizacao": "1.0 Endura / 1.3 Endura / 1.0 e 1.6 Zetec Rocam",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 1996,
+          "ano_fim": 2007,
+          "notas_especiais": "Fiesta Hatch geração antiga / Street com limpador traseiro."
+        },
+        {
+          "montadora": "Ford",
+          "veiculo_modelo": "Ka",
+          "versao": "GL / Image / Action / XR 1.6 / Black / MP3 / Tecno",
+          "motorizacao": "1.0 / 1.6 Zetec Rocam",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2000,
+          "ano_fim": 2014,
+          "notas_especiais": "Ford Ka com limpador traseiro."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta ford fiesta street hatch ka com limpador traseiro kostal 1510520",
+        "comando coluna fiesta street ka xr 1.6 com buzina e limpador traseiro 96fb13335bb",
+        "chave seta ford ka 2001 2002 2003 2004 2005 2006 2007 com limpador traseiro kostal"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal: acionamento perfeito do limpador e esguicho traseiro",
+        "Buzina na alavanca com resposta instantânea",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve no New Fiesta mexicano/nacional (2011 em diante)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 85
+      }
+    },
+    {
+      "id": 29,
+      "sku_master": "SKU-029-KOS-1510530",
+      "nome_comercial_base": "Chave de Seta Ford Fiesta Hatch Ecosport Ka com Limpador Traseiro Kostal 1510530",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "1510530",
+      "codigos_oem": [
+        "2S6513335BA",
+        "2S65-13335-BA",
+        "5S6513335BA"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12530",
+        "Diretec DTC1530",
+        "Ospina 042530"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 379.9,
+      "comissao_10_pct": 37.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Farol alto/baixo e lampejo",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Limpador e lavador do vidro traseiro",
+          "Pisca-alerta integrado na carcaça superior"
+        ],
+        "dimensoes_aprox_cm": "25 x 14 x 9",
+        "peso_gramas": 380,
+        "padrao_fabricacao": "Padrão Original Ford Kostal Linha Amazon"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Ford",
+          "veiculo_modelo": "Fiesta Hatch (New Fiesta Amazon)",
+          "versao": "First / Trend / Class / Trail",
+          "motorizacao": "1.0 / 1.6 8V Zetec Rocam",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2002,
+          "ano_fim": 2014,
+          "notas_especiais": "Fiesta Hatch geração Amazon com limpador traseiro."
+        },
+        {
+          "montadora": "Ford",
+          "veiculo_modelo": "Ecosport",
+          "versao": "XL / XLS / XLT / Freestyle / 4WD",
+          "motorizacao": "1.6 8V Zetec Rocam / 2.0 16V Duratec",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2003,
+          "ano_fim": 2012,
+          "notas_especiais": "Ecosport 1ª geração com limpador traseiro."
+        },
+        {
+          "montadora": "Ford",
+          "veiculo_modelo": "Ka",
+          "versao": "Fly / Pulse / Action / Sport",
+          "motorizacao": "1.0 / 1.6 8V Zetec Rocam",
+          "combustivel": "Flex",
+          "ano_inicio": 2008,
+          "ano_fim": 2013,
+          "notas_especiais": "Novo Ka geração 2 com limpador traseiro."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta ford fiesta hatch ecosport novo ka com limpador traseiro kostal 1510530",
+        "comando coluna ecosport 2003 a 2012 freestyle 1.6 2.0 original 2s6513335ba",
+        "chave seta fiesta hatch 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 kostal"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal de linha de montagem da Ford Brasil",
+        "Encaixe milimétrico na tampa da coluna e conectores originais",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em Fiesta Sedan (que não possui limpador traseiro)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 88
+      }
+    },
+    {
+      "id": 30,
+      "sku_master": "SKU-030-KOS-10003264",
+      "nome_comercial_base": "Chave de Seta Chevrolet Celta 2000 a 2006 com Limpador Dianteiro e Traseiro Kostal 10003264",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10003264",
+      "codigos_oem": [
+        "93356885",
+        "93383040"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12264",
+        "Diretec DTC1264",
+        "Ospina 042264"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 299.9,
+      "comissao_10_pct": 29.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Comutação farol alto/baixo e lampejo",
+          "Limpador dianteiro com temporizador",
+          "Limpador e lavador traseiro",
+          "Pisca-alerta na carcaça superior"
+        ],
+        "dimensoes_aprox_cm": "24 x 14 x 9",
+        "peso_gramas": 360,
+        "padrao_fabricacao": "Padrão Original Kostal GM"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Celta",
+          "versao": "Life / Spirit / Super / Energy",
+          "motorizacao": "1.0 8V / 1.4 8V VHC Gasolina e Flexpower",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2000,
+          "ano_fim": 2006,
+          "notas_especiais": "Celta 1ª geração (frente antiga e painel antigo) com limpador traseiro."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta celta 2000 2001 2002 2003 2004 2005 2006 com limpador traseiro kostal 10003264",
+        "comando de coluna gm celta 1.0 vhc com limpador traseiro original 93356885",
+        "chave seta celta frente antiga com pisca alerta kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal para Celta 1ª geração",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em Celta 2007 em diante (painel reestilizado que usa Kostal 10147724 ou 10013879)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 1,
+        "line_index": 91
+      }
+    },
+    {
+      "id": 31,
+      "sku_master": "SKU-031-KOS-10147724",
+      "nome_comercial_base": "Chave de Seta Chevrolet Celta Prisma 2007 a 2010 sem Limpador Traseiro Kostal 10147724",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10147724",
+      "codigos_oem": [
+        "93383038",
+        "94701444"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12724",
+        "Diretec DTC1724",
+        "Ospina 042724"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 339.9,
+      "comissao_10_pct": 33.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Farol alto/baixo e lampejador",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Pisca-alerta integrado",
+          "SEM limpador traseiro e SEM buzina na alavanca"
+        ],
+        "dimensoes_aprox_cm": "24 x 14 x 9",
+        "peso_gramas": 365,
+        "padrao_fabricacao": "Padrão Original Kostal GM"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Celta",
+          "versao": "Life / Spirit / Super",
+          "motorizacao": "1.0 8V VHC / VHCE Flexpower",
+          "combustivel": "Flex",
+          "ano_inicio": 2007,
+          "ano_fim": 2010,
+          "notas_especiais": "Celta fase 2 sem limpador traseiro."
+        },
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Prisma",
+          "versao": "Joy / Maxx",
+          "motorizacao": "1.4 8V Econoflex / 1.0 Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2007,
+          "ano_fim": 2010,
+          "notas_especiais": "Prisma 1ª geração fase 1."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta celta prisma 2007 2008 2009 2010 sem limpador traseiro kostal 10147724",
+        "comando de coluna gm prisma 1.4 econoflex celta vhc 93383038 kostal original",
+        "chave seta celta 2008 prisma 2009 kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal de alta precisão",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em modelos com limpador traseiro."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 3
+      }
+    },
+    {
+      "id": 32,
+      "sku_master": "SKU-032-KOS-10002290",
+      "nome_comercial_base": "Chave de Seta Fiat Palio Weekend Siena Farol Bi-Parabola com Trip Desembacador Kostal 10002290",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10002290",
+      "codigos_oem": [
+        "100185358",
+        "100190820"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12290",
+        "Diretec DTC1290",
+        "Ospina 042290"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 549.9,
+      "comissao_10_pct": 54.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comutação para Farol com Duplo Refletor (Bi-Parábola)",
+          "Comando de seta com retorno automático",
+          "Follow Me Home",
+          "Limpador dianteiro e limpador traseiro",
+          "Função de computador de bordo TRIP na alavanca",
+          "Interruptor do desembaçador traseiro e pisca-alerta"
+        ],
+        "dimensoes_aprox_cm": "26 x 15 x 10",
+        "peso_gramas": 450,
+        "padrao_fabricacao": "Padrão Original Kostal Fiat"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio",
+          "versao": "Essence / Sporting / Attractive / 1.8R (G4)",
+          "motorizacao": "1.4 / 1.6 16V / 1.8 8V Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2008,
+          "ano_fim": 2014,
+          "notas_especiais": "Modelos equipados com farol bi-parábola (lâmpadas H7+H1) e TRIP."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio Weekend",
+          "versao": "Trekking / Adventure Locker (G4)",
+          "motorizacao": "1.4 / 1.8 / 1.6 16V / 1.8 16V",
+          "combustivel": "Flex",
+          "ano_inicio": 2008,
+          "ano_fim": 2014,
+          "notas_especiais": "Adventure Locker com farol bi-parábola e TRIP."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Siena",
+          "versao": "HLX / Essence / Sporting (G4)",
+          "motorizacao": "1.4 / 1.6 16V / 1.8",
+          "combustivel": "Flex",
+          "ano_inicio": 2008,
+          "ano_fim": 2013,
+          "notas_especiais": "Farol bi-parábola e computador de bordo."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta palio weekend adventure locker farol biparabola trip kostal 10002290",
+        "comando de coluna palio siena 2008 a 2014 farol duplo trip 100185358 original",
+        "chave seta palio 1.8r adventure locker kostal 10002290 novo"
+      ],
+      "diferenciais_competitivos": [
+        "Exclusiva para veículos com farol bi-parábola: acende o farol alto sem apagar o baixo",
+        "Original Kostal de alta tecnologia",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não compatível com modelos de farol mono-parábola simples (lâmpada H4)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 6
+      }
+    },
+    {
+      "id": 33,
+      "sku_master": "SKU-033-KOS-10003263",
+      "nome_comercial_base": "Chave de Seta Chevrolet Celta 2000 a 2006 sem Limpador Traseiro com Buzina Kostal 10003263",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10003263",
+      "codigos_oem": [
+        "93356884",
+        "93383039"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12263",
+        "Diretec DTC1263",
+        "Ospina 042263"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 329.9,
+      "comissao_10_pct": 32.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Farol alto/baixo e lampejo",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Buzina na ponta da alavanca esquerda",
+          "Pisca-alerta na carcaça",
+          "SEM limpador traseiro"
+        ],
+        "dimensoes_aprox_cm": "24 x 14 x 9",
+        "peso_gramas": 355,
+        "padrao_fabricacao": "Padrão Original Kostal GM"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Celta",
+          "versao": "Life / Spirit / Super",
+          "motorizacao": "1.0 8V / 1.4 8V VHC Gasolina e Flex",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2000,
+          "ano_fim": 2006,
+          "notas_especiais": "Celta 1ª geração sem limpador traseiro com buzina na alavanca."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta celta 2000 a 2006 sem limpador traseiro com buzina kostal 10003263",
+        "comando coluna celta 1.0 vhc 2001 2002 2003 2004 2005 93356884 original kostal",
+        "chave seta celta frente antiga basico com buzina kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal para Celta 1ª geração",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em modelos com limpador traseiro."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 9
+      }
+    },
+    {
+      "id": 34,
+      "sku_master": "SKU-034-KOS-10015530",
+      "nome_comercial_base": "Chave de Seta Chevrolet Celta Prisma 2010 a 2015 sem Limpador Traseiro Kostal 10015530",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10015530",
+      "codigos_oem": [
+        "94749141"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12530GM",
+        "Diretec DTC1531",
+        "Ospina 042531"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 329.9,
+      "comissao_10_pct": 32.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Farol alto/baixo e lampejador",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Pisca-alerta integrado",
+          "SEM limpador traseiro"
+        ],
+        "dimensoes_aprox_cm": "24 x 14 x 9",
+        "peso_gramas": 360,
+        "padrao_fabricacao": "Padrão Original Kostal GM"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Celta",
+          "versao": "Life / LS / LT / Advantage",
+          "motorizacao": "1.0 8V VHCE Flexpower",
+          "combustivel": "Flex",
+          "ano_inicio": 2010,
+          "ano_fim": 2015,
+          "notas_especiais": "Celta fase 3 sem limpador traseiro."
+        },
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Prisma",
+          "versao": "Joy / Maxx / LT",
+          "motorizacao": "1.0 / 1.4 8V Econoflex",
+          "combustivel": "Flex",
+          "ano_inicio": 2010,
+          "ano_fim": 2012,
+          "notas_especiais": "Prisma 1ª geração fase 2."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta celta prisma 2010 a 2015 sem limpador traseiro kostal 10015530",
+        "comando de coluna celta lt ls prisma maxx 94749141 original kostal",
+        "chave seta celta 2011 2012 2013 2014 kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal de linha de montagem da GM",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em modelos com limpador traseiro."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 12
+      }
+    },
+    {
+      "id": 35,
+      "sku_master": "SKU-035-KOS-10015096",
+      "nome_comercial_base": "Chave de Seta Chevrolet Celta Prisma com Temporizador Kostal 10015096",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10015096",
+      "codigos_oem": [
+        "94749143"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12096",
+        "Diretec DTC1096",
+        "Ospina 042096"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 379.9,
+      "comissao_10_pct": 37.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Farol alto/baixo e lampejo",
+          "Limpador de para-brisa dianteiro com temporizador fixo",
+          "Pisca-alerta integrado",
+          "SEM limpador traseiro"
+        ],
+        "dimensoes_aprox_cm": "24 x 14 x 9",
+        "peso_gramas": 365,
+        "padrao_fabricacao": "Padrão Original Kostal GM"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Celta",
+          "versao": "Life / LS / LT",
+          "motorizacao": "1.0 8V VHCE Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2010,
+          "ano_fim": 2013,
+          "notas_especiais": "Celta com temporizador dianteiro sem limpador traseiro."
+        },
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Prisma",
+          "versao": "Joy / Maxx / LT",
+          "motorizacao": "1.0 / 1.4 8V Econoflex",
+          "combustivel": "Flex",
+          "ano_inicio": 2010,
+          "ano_fim": 2012,
+          "notas_especiais": "Prisma 1ª geração."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta celta prisma 2010 2011 2012 2013 com temporizador kostal 10015096",
+        "comando de coluna chevrolet celta prisma 94749143 original kostal",
+        "chave seta celta sem limpador traseiro com temporizador kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal com temporizador de para-brisa integrado",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em modelos com limpador traseiro."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 15
+      }
+    },
+    {
+      "id": 36,
+      "sku_master": "SKU-036-KOS-10015563",
+      "nome_comercial_base": "Chave de Seta Fiat Palio Siena Strada Fire Farol Bi-Parabola Kostal 10015563",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10015563",
+      "codigos_oem": [
+        "100190918",
+        "100185555",
+        "100181997"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12563",
+        "Diretec DTC1563",
+        "Ospina 042563"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 419.9,
+      "comissao_10_pct": 41.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comutação para Farol Duplo (Bi-Parábola)",
+          "Comando de seta com retorno automático",
+          "Limpador de para-brisa dianteiro",
+          "Pisca-alerta integrado",
+          "SEM limpador traseiro, SEM trip e SEM airbag"
+        ],
+        "dimensoes_aprox_cm": "25 x 14 x 9",
+        "peso_gramas": 390,
+        "padrao_fabricacao": "Padrão Original Kostal Fiat"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio Fire",
+          "versao": "Fire / Economy",
+          "motorizacao": "1.0 8V Fire Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2009,
+          "ano_fim": 2014,
+          "notas_especiais": "Palio Fire com farol duplo sem limpador traseiro."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Siena Fire",
+          "versao": "Fire / EL",
+          "motorizacao": "1.0 8V / 1.4 8V Fire",
+          "combustivel": "Flex",
+          "ano_inicio": 2009,
+          "ano_fim": 2012,
+          "notas_especiais": "Siena Fire com farol bi-parábola."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Strada Fire",
+          "versao": "Fire / Working",
+          "motorizacao": "1.4 8V Fire Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2009,
+          "ano_fim": 2012,
+          "notas_especiais": "Strada Fire com farol bi-parábola."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta palio siena strada fire 2009 a 2014 farol biparabola kostal 10015563",
+        "comando de coluna fiat palio fire farol duplo 100190918 original kostal",
+        "chave seta strada fire working 1.4 flex farol duplo kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal para linha Fiat Fire com farol bi-parábola",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em veículos com airbag ou função TRIP."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 18
+      }
+    },
+    {
+      "id": 37,
+      "sku_master": "SKU-037-KOS-10015565",
+      "nome_comercial_base": "Chave de Seta Fiat Uno Mille Fiorino 2009 a 2013 Kostal 10015565",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10015565",
+      "codigos_oem": [
+        "100185373",
+        "100190783"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12565",
+        "Diretec DTC1565",
+        "Ospina 042565"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 409.9,
+      "comissao_10_pct": 40.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Farol alto/baixo e lampejador",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Botão de pisca-alerta na carcaça",
+          "SEM limpador traseiro e SEM airbag"
+        ],
+        "dimensoes_aprox_cm": "24 x 14 x 9",
+        "peso_gramas": 355,
+        "padrao_fabricacao": "Padrão Original Kostal Fiat"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Uno Mille",
+          "versao": "Fire / Economy / Way",
+          "motorizacao": "1.0 8V Fire Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2009,
+          "ano_fim": 2013,
+          "notas_especiais": "Uno Mille quadrado sem limpador traseiro."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Fiorino",
+          "versao": "Furgão Fire",
+          "motorizacao": "1.3 8V Fire Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2009,
+          "ano_fim": 2013,
+          "notas_especiais": "Fiorino furgão sem limpador traseiro."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta uno mille fiorino 2009 2010 2011 2012 2013 kostal 10015565",
+        "comando de coluna fiat uno way economy fiorino 100185373 original kostal",
+        "chave seta uno mille fire sem limpador traseiro kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal para Uno Mille e Fiorino",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em Novo Uno (Vivace/Way 2010 em diante)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 21
+      }
+    },
+    {
+      "id": 38,
+      "sku_master": "SKU-038-KOS-10015566",
+      "nome_comercial_base": "Chave de Seta Fiat Palio Farol Bi-Parabola com Limpador Traseiro Kostal 10015566",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10015566",
+      "codigos_oem": [
+        "100190919",
+        "100185556"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12566",
+        "Diretec DTC1566",
+        "Ospina 042566"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 419.9,
+      "comissao_10_pct": 41.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comutação para Farol Duplo (Bi-Parábola)",
+          "Comando de seta com retorno automático",
+          "Limpador dianteiro e limpador/lavador traseiro",
+          "Pisca-alerta integrado",
+          "SEM trip e SEM airbag"
+        ],
+        "dimensoes_aprox_cm": "25 x 14 x 9",
+        "peso_gramas": 395,
+        "padrao_fabricacao": "Padrão Original Kostal Fiat"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio",
+          "versao": "Attractive / Economy / Fire (G4)",
+          "motorizacao": "1.0 8V / 1.4 8V Fire Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2009,
+          "ano_fim": 2014,
+          "notas_especiais": "Palio G4 com farol bi-parábola e limpador traseiro (sem TRIP)."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta fiat palio 2009 a 2014 farol biparabola com limpador traseiro kostal 10015566",
+        "comando coluna palio economy attractive farol duplo 100190919 original kostal",
+        "chave seta palio fire g4 com limpador traseiro kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal para Palio G4",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em modelos com computador de bordo TRIP."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 24
+      }
+    },
+    {
+      "id": 39,
+      "sku_master": "SKU-039-KOS-10019263",
+      "nome_comercial_base": "Chave de Seta Fiat Palio Siena Strada com Trip sem Limpador Traseiro Kostal 10019263",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10019263",
+      "codigos_oem": [
+        "100190917",
+        "100185356"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12263FI",
+        "Diretec DTC1263FI",
+        "Ospina 042263FI"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 529.9,
+      "comissao_10_pct": 52.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Farol alto/baixo e Follow Me Home",
+          "Limpador de para-brisa dianteiro",
+          "Função de computador de bordo TRIP na alavanca",
+          "Pisca-alerta integrado",
+          "SEM limpador traseiro e SEM airbag"
+        ],
+        "dimensoes_aprox_cm": "25 x 14 x 9",
+        "peso_gramas": 385,
+        "padrao_fabricacao": "Padrão Original Kostal Fiat"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio",
+          "versao": "ELX / Attractive / Essence (G4)",
+          "motorizacao": "1.0 / 1.4 / 1.8",
+          "combustivel": "Flex",
+          "ano_inicio": 2008,
+          "ano_fim": 2016,
+          "notas_especiais": "Sem limpador traseiro com TRIP."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Siena",
+          "versao": "ELX / HLX / Essence / Tetrafuel (G4)",
+          "motorizacao": "1.0 / 1.4 / 1.6 / 1.8",
+          "combustivel": "Flex / GNV",
+          "ano_inicio": 2008,
+          "ano_fim": 2016,
+          "notas_especiais": "Siena com computador de bordo TRIP."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Strada",
+          "versao": "Trekking / Adventure / Working (G4)",
+          "motorizacao": "1.4 / 1.8 Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2008,
+          "ano_fim": 2016,
+          "notas_especiais": "Strada com computador de bordo TRIP."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta fiat palio siena strada com trip sem limpador traseiro kostal 10019263",
+        "comando de coluna strada siena elx com computador de bordo 100190917 original kostal",
+        "chave seta strada trekking adventure trip kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal com função TRIP para Siena e Strada",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em modelos com limpador traseiro."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 27
+      }
+    },
+    {
+      "id": 40,
+      "sku_master": "SKU-040-KOS-10022069",
+      "nome_comercial_base": "Chave de Seta Fiat Novo Uno Vivace Way Nova Fiorino Kostal 10022069",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10022069",
+      "codigos_oem": [
+        "100198642",
+        "100190822",
+        "100204778"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12069",
+        "Diretec DTC1069",
+        "Ospina 042069"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 429.9,
+      "comissao_10_pct": 42.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Farol alto/baixo e lampejo",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Botão de pisca-alerta na carcaça",
+          "SEM limpador traseiro, SEM trip e SEM airbag"
+        ],
+        "dimensoes_aprox_cm": "25 x 14 x 9",
+        "peso_gramas": 370,
+        "padrao_fabricacao": "Padrão Original Kostal Novo Uno"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Novo Uno",
+          "versao": "Vivace / Way / Attractive / Sporting",
+          "motorizacao": "1.0 8V / 1.4 8V Fire EVO",
+          "combustivel": "Flex",
+          "ano_inicio": 2010,
+          "ano_fim": 2016,
+          "notas_especiais": "Novo Uno sem limpador traseiro e sem airbag."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Nova Fiorino",
+          "versao": "Furgão / Hard Working",
+          "motorizacao": "1.4 8V Fire EVO",
+          "combustivel": "Flex",
+          "ano_inicio": 2013,
+          "ano_fim": 2021,
+          "notas_especiais": "Nova Fiorino (frente Novo Uno)."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta fiat novo uno vivace way nova fiorino 2010 a 2016 kostal 10022069",
+        "comando de coluna novo uno vivace fiorino evo 100198642 original kostal",
+        "chave seta uno vivace 1.0 1.4 sem limpador traseiro kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal para Novo Uno e Nova Fiorino",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em Uno Mille antigo (quadrado).",
+        "Não serve em versões com bolsa de airbag."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 30
+      }
+    },
+    {
+      "id": 41,
+      "sku_master": "SKU-041-KOS-10094493",
+      "nome_comercial_base": "Chave de Seta Fiat Grand Siena Strada Novo Palio com Trip Kostal 10094493",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10094493",
+      "codigos_oem": [
+        "100204780",
+        "100216542"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12493",
+        "Diretec DTC1493",
+        "Ospina 042493"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 449.9,
+      "comissao_10_pct": 44.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta e farol alto/baixo com Follow Me Home",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Comando do computador de bordo TRIP na alavanca",
+          "Pisca-alerta integrado",
+          "SEM limpador traseiro e SEM airbag"
+        ],
+        "dimensoes_aprox_cm": "26 x 15 x 10",
+        "peso_gramas": 400,
+        "padrao_fabricacao": "Padrão Original Kostal Fiat"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Grand Siena",
+          "versao": "Attractive / Essence / Tetrafuel",
+          "motorizacao": "1.4 8V Fire EVO / 1.6 16V E.torQ",
+          "combustivel": "Flex / GNV",
+          "ano_inicio": 2013,
+          "ano_fim": 2016,
+          "notas_especiais": "Grand Siena sem airbag com computador de bordo TRIP."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Strada",
+          "versao": "Working / Hard Working / Trekking",
+          "motorizacao": "1.4 8V Fire / 1.6 16V E.torQ",
+          "combustivel": "Flex",
+          "ano_inicio": 2014,
+          "ano_fim": 2020,
+          "notas_especiais": "Strada com função TRIP."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Novo Palio",
+          "versao": "Attractive / Essence (G5)",
+          "motorizacao": "1.0 / 1.4 / 1.6",
+          "combustivel": "Flex",
+          "ano_inicio": 2012,
+          "ano_fim": 2017,
+          "notas_especiais": "Novo Palio G5 sem limpador traseiro."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta fiat grand siena strada novo palio com trip kostal 10094493",
+        "comando de coluna grand siena 1.4 1.6 strada working 100204780 original kostal",
+        "chave seta grand siena com computador de bordo trip kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal para Grand Siena e Strada",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em modelos com cinta de airbag embutida."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 33
+      }
+    },
+    {
+      "id": 42,
+      "sku_master": "SKU-042-KOS-10102849",
+      "nome_comercial_base": "Chave de Seta com Cinta de Airbag Fiat Palio Fire Way Grand Siena Fiorino Kostal 10102849",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10102849",
+      "codigos_oem": [
+        "100216543",
+        "100234551"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12849",
+        "Diretec DTC1849",
+        "Ospina 042849"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 659.9,
+      "comissao_10_pct": 65.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "CINTA DE AIRBAG (Clock Spring / Hardwire) Integrada de fábrica",
+          "Acionamento de buzina no volante e bolsa de airbag do motorista",
+          "Comando de seta com retorno automático e faróis alto/baixo",
+          "Limpador de para-brisa dianteiro com temporizador",
+          "Pisca-alerta na carcaça",
+          "SEM limpador traseiro"
+        ],
+        "dimensoes_aprox_cm": "26 x 16 x 11",
+        "peso_gramas": 490,
+        "padrao_fabricacao": "Padrão Original Kostal com Segurança Ativa Airbag"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio Fire Way",
+          "versao": "Fire / Way",
+          "motorizacao": "1.0 8V Fire Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2014,
+          "ano_fim": 2017,
+          "notas_especiais": "Veículos com airbag duplo frontal obrigatório de fábrica (sem limpador traseiro)."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Grand Siena",
+          "versao": "Attractive / Essence",
+          "motorizacao": "1.4 8V / 1.6 16V",
+          "combustivel": "Flex",
+          "ano_inicio": 2013,
+          "ano_fim": 2021,
+          "notas_especiais": "Com cinta de airbag e buzina."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Fiorino",
+          "versao": "Hard Working / Endurance",
+          "motorizacao": "1.4 8V Fire EVO",
+          "combustivel": "Flex",
+          "ano_inicio": 2014,
+          "ano_fim": 2021,
+          "notas_especiais": "Fiorino com airbag de fábrica."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta com cinta de airbag palio fire way grand siena fiorino kostal 10102849",
+        "comando de coluna com clock spring airbag fiat 100216543 original kostal",
+        "chave seta palio fire 2014 2015 2016 2017 com airbag fiorino kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Conjunto completo com cinta de airbag (clock spring) montada e testada de fábrica",
+        "Elimina a luz acesa do airbag e restaura a buzina no volante",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Manusear com a trava da cinta travada no centro até o volante ser acoplado para evitar rompimento da fita condutora."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 36
+      }
+    },
+    {
+      "id": 43,
+      "sku_master": "SKU-043-KOS-10102852",
+      "nome_comercial_base": "Chave de Seta com Cinta de Airbag e Limpador Traseiro Fiat Palio Fire Kostal 10102852",
+      "marca_fabricante": "Kostal",
+      "codigo_fabricante": "10102852",
+      "codigos_oem": [
+        "100216544",
+        "100234552"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12852",
+        "Diretec DTC1852",
+        "Ospina 042852"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 779.9,
+      "comissao_10_pct": 77.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "CINTA DE AIRBAG (Clock Spring) Integrada para bolsa do motorista e buzina",
+          "Limpador de para-brisa dianteiro e traseiro",
+          "Interruptor de desembaçador traseiro",
+          "Comando de seta e faróis alto/baixo",
+          "Pisca-alerta integrado na carcaça"
+        ],
+        "dimensoes_aprox_cm": "26 x 16 x 11",
+        "peso_gramas": 510,
+        "padrao_fabricacao": "Padrão Original Kostal com Segurança Ativa Airbag"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio Fire / Way",
+          "versao": "Fire / Way",
+          "motorizacao": "1.0 8V Fire Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2014,
+          "ano_fim": 2017,
+          "notas_especiais": "Palio Fire completo com airbag, limpador traseiro e desembaçador."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta com cinta airbag e limpador traseiro palio fire way 2014 a 2017 kostal 10102852",
+        "comando de coluna palio fire com bolsa airbag e limpador traseiro 100216544 original kostal",
+        "chave seta palio fire way 2015 2016 com airbag desembacador kostal novo"
+      ],
+      "diferenciais_competitivos": [
+        "Original Kostal: chave topo de linha mais completa da família Palio Fire",
+        "Cinta de airbag 100% calibrada",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não compatível com modelos sem airbag de fábrica."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 39
+      }
+    },
+    {
+      "id": 44,
+      "sku_master": "SKU-044-DIR-DTC1027",
+      "nome_comercial_base": "Chave de Seta com Temporizador VW Kombi Clipper Carat Standard Flex Diretec DTC1027",
+      "marca_fabricante": "Diretec",
+      "codigo_fabricante": "DTC1027",
+      "codigos_oem": [
+        "2379535051",
+        "237.953.505.1"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12085",
+        "Kostal 10003027",
+        "Ospina 042085"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 209.9,
+      "comissao_10_pct": 20.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Comutação de farol alto/baixo e lampejo",
+          "Limpador de para-brisa com temporizador e lavador (esguicho elétrico)",
+          "Alavanca dupla integrada na carcaça de fixação da coluna"
+        ],
+        "dimensoes_aprox_cm": "24 x 13 x 9",
+        "peso_gramas": 380,
+        "padrao_fabricacao": "Padrão Original VW Kombi"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Kombi",
+          "versao": "Clipper / Carat / Standard / Furgão / Pick-up / Escolar / Last Edition",
+          "motorizacao": "1.6 Boxer a Ar (Injeção Eletrônica) / 1.4 Total Flex (EA111)",
+          "combustivel": "Gasolina / Álcool / Flex",
+          "ano_inicio": 1995,
+          "ano_fim": 2014,
+          "notas_especiais": "Kombi moderna de 1995 a 2014 com temporizador de para-brisa."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta vw kombi 1.6 ar injecao 1.4 flex 1995 a 2014 diretec dtc1027",
+        "comando de coluna kombi com temporizador 2379535051 original diretec",
+        "chave seta e limpador kombi carat flex diretec dtc1027 novo"
+      ],
+      "diferenciais_competitivos": [
+        "Excelente durabilidade mecânica em veículos de trabalho diário pesado",
+        "Contatos estanhados resistentes a vibrações",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em Kombi antiga (1976 a 1989 com esguicho pneumático no pé ou botão simples)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 42
+      }
+    },
+    {
+      "id": 45,
+      "sku_master": "SKU-045-GM-20941129",
+      "nome_comercial_base": "Chave de Seta com Computador de Bordo Original GM Chevrolet Cruze LT LTZ 20941129",
+      "marca_fabricante": "GM Chevrolet",
+      "codigo_fabricante": "20941129",
+      "codigos_oem": [
+        "20941129",
+        "13303882",
+        "13303883"
+      ],
+      "codigos_cruzados": [
+        "Kostal GM20941129",
+        "Delphi GM20941"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção (Alavanca Esquerda)",
+      "quantidade_estoque": 1,
+      "preco_venda": 184.9,
+      "comissao_10_pct": 18.49,
+      "garantia_meses": 12,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V (Rede CAN Multiplexada)",
+        "funcoes_integradas": [
+          "Comando de seta com função One-Touch (3 piscadas para ultrapassagem)",
+          "Controle do Computador de Bordo (Menu, Rolagem e Botão Set/Clr)",
+          "Farol alto, farol baixo e lampejador",
+          "Acionamento de farol de neblina dianteiro e lanterna de neblina traseira"
+        ],
+        "dimensoes_aprox_cm": "21 x 7 x 5",
+        "peso_gramas": 180,
+        "padrao_fabricacao": "Original Genuíno General Motors"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Chevrolet",
+          "veiculo_modelo": "Cruze",
+          "versao": "LT / LTZ / Sport6 (Hatch e Sedan)",
+          "motorizacao": "1.8 16V Ecotec Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2011,
+          "ano_fim": 2016,
+          "notas_especiais": "Cruze 1ª geração."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta chevrolet cruze lt ltz sport6 2011 a 2016 original gm 20941129",
+        "alavanca de seta com computador de bordo cruze 1.8 16v ecotec gm genuino",
+        "chave seta e farol de milha cruze sedan hatch 2012 2013 2014 2015 20941129"
+      ],
+      "diferenciais_competitivos": [
+        "Peça 100% Genuína GM na embalagem holográfica Chevrolet",
+        "Comunicação perfeita via rede CAN sem gerar falhas no painel",
+        "Garantia de 1 ano"
+      ],
+      "alertas_compatibilidade": [
+        "Não compatível com Cruze Turbo 1.4 (Geração 2 a partir de 2017)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 45
+      }
+    },
+    {
+      "id": 46,
+      "sku_master": "SKU-046-VW-6Q095350DK",
+      "nome_comercial_base": "Chave de Seta e Limpador com Trip Original VW Polo Fox SpaceFox 6Q0953503DK",
+      "marca_fabricante": "Volkswagen",
+      "codigo_fabricante": "6Q0953503DK",
+      "codigos_oem": [
+        "6Q0953503DK",
+        "6Q0953503DK9B9",
+        "6Q095350DK"
+      ],
+      "codigos_cruzados": [
+        "Kostal 10006250",
+        "Marília IM12350",
+        "Diretec DTC1350"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 229.9,
+      "comissao_10_pct": 22.99,
+      "garantia_meses": 12,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta e faróis alto/baixo",
+          "Limpador de para-brisa dianteiro e traseiro com esguicho",
+          "Controle do Computador de Bordo I-System (Teclas Up/Down/Reset na alavanca)",
+          "Botão de pisca-alerta integrado no topo da carcaça"
+        ],
+        "dimensoes_aprox_cm": "26 x 15 x 10",
+        "peso_gramas": 460,
+        "padrao_fabricacao": "Original Genuíno Volkswagen"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Polo",
+          "versao": "Comfortline / Sportline / GT / Bluemotion (Hatch e Sedan)",
+          "motorizacao": "1.6 8V / 2.0 8V EA111",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 2007,
+          "ano_fim": 2015,
+          "notas_especiais": "Polo com computador de bordo e limpador traseiro."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Fox / SpaceFox / CrossFox",
+          "versao": "Prime / Highline / Extreme",
+          "motorizacao": "1.6 8V EA111",
+          "combustivel": "Flex",
+          "ano_inicio": 2008,
+          "ano_fim": 2014,
+          "notas_especiais": "Modelos com painel I-System."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta e limpador vw polo fox spacefox com trip original 6q0953503dk",
+        "comando coluna vw polo hatch sedan 2007 a 2015 i-system original 6q095350dk",
+        "chave seta polo sportline spacefox prime genuina volkswagen"
+      ],
+      "diferenciais_competitivos": [
+        "Peça 100% Genuína Volkswagen",
+        "Controle total do painel de instrumentos I-System",
+        "Garantia de 1 ano"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em Polo sem computador de bordo."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 48
+      }
+    },
+    {
+      "id": 47,
+      "sku_master": "SKU-047-MAR-IM12300",
+      "nome_comercial_base": "Chave de Seta com Farol de Milha e Buzina Renault Sandero Logan Duster Oroch Marilia IM12300",
+      "marca_fabricante": "Marília",
+      "codigo_fabricante": "IM12300",
+      "codigos_oem": [
+        "255405056R",
+        "255400337R",
+        "8201167988"
+      ],
+      "codigos_cruzados": [
+        "Diretec DTC1300",
+        "Kostec KT12300",
+        "Valeo 251682"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção (Alavanca Esquerda)",
+      "quantidade_estoque": 1,
+      "preco_venda": 409.9,
+      "comissao_10_pct": 40.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno automático",
+          "Comutação de farol alto/baixo e lanterna",
+          "Acionamento de Farol de Neblina / Milha dianteiro e traseiro",
+          "Buzina na ponta da alavanca (padrão francês Renault)"
+        ],
+        "dimensoes_aprox_cm": "22 x 7 x 5",
+        "peso_gramas": 195,
+        "padrao_fabricacao": "Padrão Original Renault Linha Marília"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Renault",
+          "veiculo_modelo": "Sandero II / Stepway",
+          "versao": "Authentique / Expression / Dynamique / Stepway / RS 2.0 / GT Line",
+          "motorizacao": "1.0 16V D4D / 1.0 12V 3cc SCe / 1.6 8V Hi-Flex / 1.6 16V SCe / 2.0 F4R",
+          "combustivel": "Flex",
+          "ano_inicio": 2014,
+          "ano_fim": 2020,
+          "notas_especiais": "Sandero 2ª geração com farol de neblina."
+        },
+        {
+          "montadora": "Renault",
+          "veiculo_modelo": "Logan II",
+          "versao": "Expression / Dynamique / Iconic",
+          "motorizacao": "1.0 / 1.6 Flex",
+          "combustivel": "Flex",
+          "ano_inicio": 2014,
+          "ano_fim": 2020,
+          "notas_especiais": "Logan 2ª geração."
+        },
+        {
+          "montadora": "Renault",
+          "veiculo_modelo": "Duster / Duster Oroch",
+          "versao": "Expression / Dynamique / Dakar / Outsider",
+          "motorizacao": "1.6 16V / 2.0 16V",
+          "combustivel": "Flex",
+          "ano_inicio": 2015,
+          "ano_fim": 2021,
+          "notas_especiais": "Com farol de milha e buzina."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta renault sandero logan duster oroch com farol de milha marilia im12300",
+        "alavanca de seta sandero stepway duster com buzina 255405056r marilia",
+        "chave seta renault sandero rs 2.0 duster oroch 1.6 2.0 marilia im12300 novo"
+      ],
+      "diferenciais_competitivos": [
+        "Elimina o problema crônico de quebra do fio da buzina na alavanca dos veículos Renault",
+        "Chicote flexível interno com proteção siliconada anti-rompimento",
+        "Garantia de 6 meses Marília"
+      ],
+      "alertas_compatibilidade": [
+        "Não compatível com Sandero e Logan de 1ª geração (2007 a 2013 que usam modelo com carcaça arredondada)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 51
+      }
+    },
+    {
+      "id": 48,
+      "sku_master": "SKU-048-MAR-IM12088",
+      "nome_comercial_base": "Chave de Seta com Buzina Fiat Uno Premio Elba Fiorino 1984 a 1989 Marilia IM12088",
+      "marca_fabricante": "Marília",
+      "codigo_fabricante": "IM12088",
+      "codigos_oem": [
+        "7506691",
+        "5991823",
+        "7507963"
+      ],
+      "codigos_cruzados": [
+        "Diretec DTC1088",
+        "Ospina 042088",
+        "Kostal 1405088"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 199.9,
+      "comissao_10_pct": 19.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno mecânico",
+          "Farol alto/baixo e lampejo",
+          "Limpador de para-brisa dianteiro de 2 velocidades",
+          "Buzina na ponta da alavanca esquerda",
+          "Fixação por abraçadeira na coluna de direção clássica"
+        ],
+        "dimensoes_aprox_cm": "23 x 13 x 8",
+        "peso_gramas": 330,
+        "padrao_fabricacao": "Padrão Original Fiat Clássico Linha Marília"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Uno",
+          "versao": "S / CS / SX / 1.5R / Top",
+          "motorizacao": "1.050 / 1.3 / 1.5 Fiasa e Sevel",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1984,
+          "ano_fim": 1989,
+          "notas_especiais": "Uno 1ª fase (painel satélite com botões laterais e buzina na alavanca)."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Prêmio",
+          "versao": "S / CS / CSL",
+          "motorizacao": "1.3 / 1.5",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1985,
+          "ano_fim": 1989,
+          "notas_especiais": "Prêmio 1ª fase."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Elba",
+          "versao": "S / CS / CSL",
+          "motorizacao": "1.3 / 1.5",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1985,
+          "ano_fim": 1989,
+          "notas_especiais": "Elba 1ª fase."
+        },
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Fiorino",
+          "versao": "Furgão / Pick-up / City",
+          "motorizacao": "1.3 / 1.5",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1985,
+          "ano_fim": 1989,
+          "notas_especiais": "Fiorino frente 147 e frente Uno antiga."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta uno 1.5r premio elba fiorino 1984 a 1989 marilia im12088",
+        "comando coluna fiat uno painel satelite buzina na alavanca 7506691 marilia",
+        "chave seta uno cs 1985 1986 1987 1988 1989 marilia novo"
+      ],
+      "diferenciais_competitivos": [
+        "Item raro de alta procura para restaurações de Uno 1.5R e Uno CS clássicos",
+        "Fabricação nova pela tradicional Indústria Marília",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em Uno de 1991 em diante com painel moderno."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 54
+      }
+    },
+    {
+      "id": 49,
+      "sku_master": "SKU-049-OSP-042083",
+      "nome_comercial_base": "Chave de Seta com Limpador e Lampejo VW Kombi 1990 a 1994 Ospina 042083",
+      "marca_fabricante": "Ospina",
+      "codigo_fabricante": "042083",
+      "codigos_oem": [
+        "2319535054",
+        "231.953.505.4"
+      ],
+      "codigos_cruzados": [
+        "Marília IM12084",
+        "Diretec DTC1083",
+        "Kostal 10003083"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Chaves de Seta e Comandos de Coluna",
+      "posicao_instalacao": "Coluna de Direção",
+      "quantidade_estoque": 1,
+      "preco_venda": 249.9,
+      "comissao_10_pct": 24.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "funcoes_integradas": [
+          "Comando de seta com retorno mecânico automático",
+          "Comutador de farol alto/baixo e lampejador",
+          "Comando do limpador de para-brisa dianteiro e acionamento do lavador elétrico"
+        ],
+        "dimensoes_aprox_cm": "24 x 13 x 9",
+        "peso_gramas": 370,
+        "padrao_fabricacao": "Padrão Original VW Kombi Clipper"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Kombi",
+          "versao": "Clipper / Luxo / Furgão / Pick-up / Standard",
+          "motorizacao": "1.6 Boxer Refrigerado a Ar (Carburador Simples e Duplo)",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1990,
+          "ano_fim": 1994,
+          "notas_especiais": "Kombi Clipper intermediária (1990 a 1994)."
+        }
+      ],
+      "termos_seo": [
+        "chave de seta vw kombi clipper 1990 1991 1992 1993 1994 ospina 042083",
+        "comando de coluna kombi furgão pick-up 1.6 ar 2319535054 original ospina",
+        "chave seta e limpador kombi clipper ospina 042083 novo"
+      ],
+      "diferenciais_competitivos": [
+        "Padrão original Ospina com encaixe exato no tubo da coluna da Kombi",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Não serve em Kombi 1995 em diante com chave modelo moderno (DTC1027)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 57
+      }
+    },
+    {
+      "id": 50,
+      "sku_master": "SKU-050-TSA-010107",
+      "nome_comercial_base": "Sensor Boia de Nivel de Combustivel Fiat Palio Weekend 2001 a 2004 TSA T-010107",
+      "marca_fabricante": "TSA",
+      "codigo_fabricante": "T-010107",
+      "codigos_oem": [
+        "7082736",
+        "46523406"
+      ],
+      "codigos_cruzados": [
+        "DS 2307",
+        "VP 8836",
+        "Indiel 010107",
+        "Short Code 010107"
+      ],
+      "categoria_nivel_1": "Injeção Eletrônica e Alimentação",
+      "categoria_nivel_2": "Sensores de Nível de Combustível (Boias)",
+      "posicao_instalacao": "Tanque de Combustível / Acoplado na Flange da Bomba Marwal",
+      "quantidade_estoque": 1,
+      "preco_venda": 279.9,
+      "comissao_10_pct": 27.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "valor_ohmico_cheio": "60 a 66 Ohms",
+        "valor_ohmico_meio": "162 a 172 Ohms",
+        "valor_ohmico_vazio": "355 a 371 Ohms",
+        "sistema_bomba": "Compatível exclusivamente com conjunto de bomba Marwal",
+        "material": "Placa cerâmica com filme espesso de prata/paládio e haste em aço inoxidável",
+        "dimensoes_aprox_cm": "20 x 8 x 6",
+        "peso_gramas": 140,
+        "padrao_fabricacao": "Padrão Original TSA do Brasil / ISO 9001"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Fiat",
+          "veiculo_modelo": "Palio Weekend",
+          "versao": "ELX / EX / Stile / Adventure",
+          "motorizacao": "1.0 16V / 1.3 16V Fire / 1.5 8V / 1.6 16V Torque",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 2001,
+          "ano_fim": 2004,
+          "notas_especiais": "Palio Weekend G2 com conjunto de bomba de combustível Marwal."
+        }
+      ],
+      "termos_seo": [
+        "sensor boia de nivel combustivel palio weekend 2001 2002 2003 2004 tsa t-010107",
+        "boia tanque combustivel palio weekend fire 1.3 16v 1.6 marwal 7082736 tsa",
+        "sensor nivel gasolina palio weekend adventure stile tsa t010107 novo"
+      ],
+      "diferenciais_competitivos": [
+        "Calibração resistiva milimétrica que marca o nível exato no ponteiro do painel sem oscilações",
+        "Resina de proteção resistente à corrosão severa por álcool e aditivos",
+        "Garantia de 6 meses TSA do Brasil"
+      ],
+      "alertas_compatibilidade": [
+        "Compatível apenas com conjunto de bomba de combustível da marca Marwal (não serve no conjunto Bosch)."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 60
+      }
+    },
+    {
+      "id": 51,
+      "sku_master": "SKU-051-DNI-DNI0342",
+      "nome_comercial_base": "Rele de Comando do Ar Condicionado 12V 25A 8 Terminais VW Gol Santana Fox Polo Ford Versailles DNI DNI0342",
+      "marca_fabricante": "DNI",
+      "codigo_fabricante": "DNI0342",
+      "codigos_oem": [
+        "377959143",
+        "377.959.143",
+        "547959143",
+        "191959143"
+      ],
+      "codigos_cruzados": [
+        "DNI 0342",
+        "Marília IM13342",
+        "Siemens V23134",
+        "Carto 0342"
+      ],
+      "categoria_nivel_1": "Elétrica Automotiva",
+      "categoria_nivel_2": "Relés Automotivos e Módulos Eletrônicos",
+      "posicao_instalacao": "Caixa de Fusíveis e Relés (Painel / Cofre do Motor)",
+      "quantidade_estoque": 1,
+      "preco_venda": 299.9,
+      "comissao_10_pct": 29.99,
+      "garantia_meses": 6,
+      "especificacoes_tecnicas": {
+        "voltagem": "12V",
+        "corrente_amperes": "25A",
+        "terminais": "8 Terminais (Pinos chatos tipo espada numerados 1 a 8)",
+        "funcao": "Módulo eletrônico temporizador e acoplador do compressor e ventilador do ar-condicionado",
+        "material": "Carcaça em polímero antichamas e bobina em cobre nobre",
+        "dimensoes_aprox_cm": "5 x 4 x 3",
+        "peso_gramas": 65,
+        "padrao_fabricacao": "Padrão Original DNI Brasil / ISO 9001"
+      },
+      "compatibilidade_veicular": [
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Gol / Parati / Saveiro",
+          "versao": "CL / GL / GLi / GLS / GTI / TSi / Atlanta / Rolling Stones (G2 Bolinha, G3, G4)",
+          "motorizacao": "1.0 / 1.6 / 1.8 / 2.0 AP e MI",
+          "combustivel": "Gasolina / Álcool / Flex",
+          "ano_inicio": 1995,
+          "ano_fim": 2008,
+          "notas_especiais": "Relé de acionamento do compressor do ar-condicionado."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Santana / Quantum",
+          "versao": "GLi / GLS / Exclusiv / Evidence",
+          "motorizacao": "1.8 / 2.0 AP Mi",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1996,
+          "ano_fim": 2006,
+          "notas_especiais": "Relé do ar condicionado."
+        },
+        {
+          "montadora": "Volkswagen",
+          "veiculo_modelo": "Fox / Polo / Golf",
+          "versao": "Plus / Route / Sportline / G4",
+          "motorizacao": "1.0 / 1.6 / 2.0",
+          "combustivel": "Gasolina / Flex",
+          "ano_inicio": 1999,
+          "ano_fim": 2012,
+          "notas_especiais": "Caixa de relés."
+        },
+        {
+          "montadora": "Ford",
+          "veiculo_modelo": "Versailles / Royale",
+          "versao": "GL / Ghia",
+          "motorizacao": "1.8 / 2.0 AP",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1995,
+          "ano_fim": 1996,
+          "notas_especiais": "Sistema Autolatina com ar condicionado."
+        },
+        {
+          "montadora": "Ford",
+          "veiculo_modelo": "Escort / Verona",
+          "versao": "GL / GLX / Ghia / XR3",
+          "motorizacao": "1.6 / 1.8 / 2.0 AP",
+          "combustivel": "Gasolina / Álcool",
+          "ano_inicio": 1993,
+          "ano_fim": 1996,
+          "notas_especiais": "Relé do ar condicionado."
+        }
+      ],
+      "termos_seo": [
+        "rele de ar condicionado vw gol parati saveiro g2 g3 santana 12v 25a 8 pinos dni 0342",
+        "rele do compressor ar condicionado 8 terminais 377959143 gol bolinha santana dni",
+        "rele ar condicionado ford versailles royale escort dni0342 novo"
+      ],
+      "diferenciais_competitivos": [
+        "Produto Original DNI líder em relés automotivos na América Latina",
+        "Arma e desarma o compressor com suavidade sem sobrecarregar a correia de acessórios",
+        "Garantia de 6 meses"
+      ],
+      "alertas_compatibilidade": [
+        "Verifique a pinagem na caixa de fusíveis: modelo de 8 terminais tipo espada."
+      ],
+      "source_metadata": {
+        "source_file": "lista_51_itens_corrigida.pdf",
+        "page": 2,
+        "line_index": 63
+      }
+    }
+  ]
+}
